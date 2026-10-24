@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "llm_model": "gpt-5-nano",
+    "embedding_model": "text-embedding-3-small",
+    "question_count": 20,
+    "question_categories": {
+      "multi_hop": {
+        "count": 5,
+        "description": "Combines information from multiple dialogue turns."
+      },
+      "temporal": {
+        "count": 5,
+        "description": "Requires reasoning about dates or time."
+      },
+      "single_hop": {
+        "count": 10,
+        "description": "Asks for a directly stated fact."
+      }
+    },
+    "retrieval_strategies": [
+      "recency",
+      "bm25",
+      "semantic"
+    ],
+    "memory_budget_tokens": 512,
+    "latency_measurement": "same_run"
+  },
+  "answers": [
+    {
+      "sample_id": "conv-47",
+      "qa_index": 23,
+      "strategy": "semantic",
+      "question": "When will John start his new job?",
+      "reference_answer": "In July, 2022",
+      "evidence": [
+        "D13:5"
+      ],
+      "llm_answer": "He starts in July 2022.",
+      "correct": 1,
+      "retrieval_latency_ms": 241.31,
+      "answer_api_latency_ms": 2043.59
+    },
+    {
+      "sample_id": "conv-42",
+      "qa_index": 93,
+      "strategy": "semantic",
+      "question": "What game was the second tournament that Nate won based on?",
+      "reference_answer": "Street Fighter",
+      "evidence": [
+        "D10:4",
+        "D10:6"
+      ],
+      "llm_answer": "Street Fighter.",
+      "correct": 1,
+      "retrieval_latency_ms": 242.14,
+      "answer_api_latency_ms": 1946.99
+    },
+    {
+      "sample_id": "conv-50",
+      "qa_index": 52,
+      "strategy": "recency",
+      "question": "When did Calvin plan on travelling to Tokyo the second time?",
+      "reference_answer": "November 2023",
+      "evidence": [
+        "D24:17"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 32.08,
+      "answer_api_latency_ms": 1142.2
+    },
+    {
+      "sample_id": "conv-30",
+      "qa_index": 74,
+      "strategy": "semantic",
+      "question": "What does Jon plan to do at the grand opening of his dance studio?",
+      "reference_answer": "savor all the good vibes",
+      "evidence": [
+        "D15:9"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 165.71,
+      "answer_api_latency_ms": 1410.98
+    },
+    {
+      "sample_id": "conv-41",
+      "qa_index": 76,
+      "strategy": "bm25",
+      "question": "Why did John decide to run for office again?",
+      "reference_answer": "saw the impact he could make in the community through politics",
+      "evidence": [
+        "D7:4"
+      ],
+      "llm_answer": "Because he couldn’t let go of his dream to make a difference in his community.",
+      "correct": 1,
+      "retrieval_latency_ms": 37.51,
+      "answer_api_latency_ms": 2739.89
+    },
+    {
+      "sample_id": "conv-42",
+      "qa_index": 5,
+      "strategy": "semantic",
+      "question": "What are Joanna's hobbies?",
+      "reference_answer": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+      "evidence": [
+        "D1:10",
+        "D2:25"
+      ],
+      "llm_answer": "Joanna’s hobbies include writing, reading, watching movies, exploring nature (hiking), and DIY projects.",
+      "correct": 0,
+      "retrieval_latency_ms": 229.18,
+      "answer_api_latency_ms": 1726.71
+    },
+    {
+      "sample_id": "conv-50",
+      "qa_index": 52,
+      "strategy": "bm25",
+      "question": "When did Calvin plan on travelling to Tokyo the second time?",
+      "reference_answer": "November 2023",
+      "evidence": [
+        "D24:17"
+      ],
+      "llm_answer": "In the last week of May 2023.",
+      "correct": 0,
+      "retrieval_latency_ms": 31.45,
+      "answer_api_latency_ms": 3295.52
+    },
+    {
+      "sample_id": "conv-50",
+      "qa_index": 154,
+      "strategy": "bm25",
+      "question": "What event did Calvin attend in Boston?",
+      "reference_answer": "Fancy gala",
+      "evidence": [
+        "D30:2"
+      ],
+      "llm_answer": "He was set to perform in Boston on a tour with Frank.",
+      "correct": 0,
+      "retrieval_latency_ms": 32.49,
+      "answer_api_latency_ms": 2813.26
+    },
+    {
+      "sample_id": "conv-44",
+      "qa_index": 99,
+      "strategy": "recency",
+      "question": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+      "reference_answer": "Took them to the beach",
+      "evidence": [
+        "D21:2"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 40.61,
+      "answer_api_latency_ms": 939.44
+    },
+    {
+      "sample_id": "conv-42",
+      "qa_index": 5,
+      "strategy": "bm25",
+      "question": "What are Joanna's hobbies?",
+      "reference_answer": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+      "evidence": [
+        "D1:10",
+        "D2:25"
+      ],
+      "llm_answer": "Joanna’s hobbies are writing and creative projects.",
+      "correct": 0,
+      "retrieval_latency_ms": 35.65,
+      "answer_api_latency_ms": 1884.76
+    },
+    {
+      "sample_id": "conv-30",
+      "qa_index": 74,
+      "strategy": "recency",
+      "question": "What does Jon plan to do at the grand opening of his dance studio?",
+      "reference_answer": "savor all the good vibes",
+      "evidence": [
+        "D15:9"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 24.33,
+      "answer_api_latency_ms": 1290.22
+    },
+    {
+      "sample_id": "conv-47",
+      "qa_index": 23,
+      "strategy": "recency",
+      "question": "When will John start his new job?",
+      "reference_answer": "In July, 2022",
+      "evidence": [
+        "D13:5"
+      ],
+      "llm_answer": "Insufficient evidence. The conversation does not mention John starting a new job or any related timeline.",
+      "correct": 0,
+      "retrieval_latency_ms": 43.58,
+      "answer_api_latency_ms": 1031.31
+    },
+    {
+      "sample_id": "conv-44",
+      "qa_index": 3,
+      "strategy": "bm25",
+      "question": "What kind of places have Andrew and his girlfriend checked out around the city?",
+      "reference_answer": "cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+      "evidence": [
+        "D3:1",
+        "D3:11",
+        "D4:2",
+        "D6:1",
+        "D13:1",
+        "D23:3",
+        "D25:1",
+        "D27:1"
+      ],
+      "llm_answer": "New places to eat around town.",
+      "correct": 0,
+      "retrieval_latency_ms": 40.11,
+      "answer_api_latency_ms": 1305.2
+    },
+    {
+      "sample_id": "conv-48",
+      "qa_index": 148,
+      "strategy": "recency",
+      "question": "What journal has Jolene been using to help track tasks and stay organized?",
+      "reference_answer": "bullet journal",
+      "evidence": [
+        "D18:3"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 41.24,
+      "answer_api_latency_ms": 1042.43
+    },
+    {
+      "sample_id": "conv-44",
+      "qa_index": 3,
+      "strategy": "recency",
+      "question": "What kind of places have Andrew and his girlfriend checked out around the city?",
+      "reference_answer": "cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+      "evidence": [
+        "D3:1",
+        "D3:11",
+        "D4:2",
+        "D6:1",
+        "D13:1",
+        "D23:3",
+        "D25:1",
+        "D27:1"
+      ],
+      "llm_answer": "Parks.",
+      "correct": 0,
+      "retrieval_latency_ms": 45.13,
+      "answer_api_latency_ms": 1451.3
+    },
+    {
+      "sample_id": "conv-49",
+      "qa_index": 72,
+      "strategy": "bm25",
+      "question": "Which activity did Sam resume in December 2023 after a long time?",
+      "reference_answer": "hiking",
+      "evidence": [
+        "D20:6",
+        "D22:1"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 29.08,
+      "answer_api_latency_ms": 2454.38
+    },
+    {
+      "sample_id": "conv-26",
+      "qa_index": 104,
+      "strategy": "recency",
+      "question": "What book did Caroline recommend to Melanie?",
+      "reference_answer": "\"Becoming Nicole\"",
+      "evidence": [
+        "D7:11"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 25.11,
+      "answer_api_latency_ms": 1057.43
+    },
+    {
+      "sample_id": "conv-42",
+      "qa_index": 93,
+      "strategy": "recency",
+      "question": "What game was the second tournament that Nate won based on?",
+      "reference_answer": "Street Fighter",
+      "evidence": [
+        "D10:4",
+        "D10:6"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 37.98,
+      "answer_api_latency_ms": 900.64
+    },
+    {
+      "sample_id": "conv-49",
+      "qa_index": 72,
+      "strategy": "semantic",
+      "question": "Which activity did Sam resume in December 2023 after a long time?",
+      "reference_answer": "hiking",
+      "evidence": [
+        "D20:6",
+        "D22:1"
+      ],
+      "llm_answer": "Hiking.",
+      "correct": 1,
+      "retrieval_latency_ms": 239.36,
+      "answer_api_latency_ms": 2356.92
+    },
+    {
+      "sample_id": "conv-26",
+      "qa_index": 104,
+      "strategy": "bm25",
+      "question": "What book did Caroline recommend to Melanie?",
+      "reference_answer": "\"Becoming Nicole\"",
+      "evidence": [
+        "D7:11"
+      ],
+      "llm_answer": "Becoming Nicole by Amy Ellis Nutt.",
+      "correct": 1,
+      "retrieval_latency_ms": 26.74,
+      "answer_api_latency_ms": 1266.76
+    },
+    {
+      "sample_id": "conv-43",
+      "qa_index": 140,
+      "strategy": "semantic",
+      "question": "How did John overcome a mistake he made during a big game in basketball?",
+      "reference_answer": "Worked hard to get better and focused on growth",
+      "evidence": [
+        "D19:10"
+      ],
+      "llm_answer": "He worked hard to get better, focusing on resilience and owning up to his mistakes.",
+      "correct": 1,
+      "retrieval_latency_ms": 246.22,
+      "answer_api_latency_ms": 1689.85
+    },
+    {
+      "sample_id": "conv-30",
+      "qa_index": 74,
+      "strategy": "bm25",
+      "question": "What does Jon plan to do at the grand opening of his dance studio?",
+      "reference_answer": "savor all the good vibes",
+      "evidence": [
+        "D15:9"
+      ],
+      "llm_answer": "He says, “Let’s make some awesome memories tomorrow at the grand opening.”",
+      "correct": 1,
+      "retrieval_latency_ms": 22.29,
+      "answer_api_latency_ms": 1523.59
+    },
+    {
+      "sample_id": "conv-50",
+      "qa_index": 154,
+      "strategy": "semantic",
+      "question": "What event did Calvin attend in Boston?",
+      "reference_answer": "Fancy gala",
+      "evidence": [
+        "D30:2"
+      ],
+      "llm_answer": "A tour with Frank.",
+      "correct": 0,
+      "retrieval_latency_ms": 293.53,
+      "answer_api_latency_ms": 1726.77
+    },
+    {
+      "sample_id": "conv-42",
+      "qa_index": 93,
+      "strategy": "bm25",
+      "question": "What game was the second tournament that Nate won based on?",
+      "reference_answer": "Street Fighter",
+      "evidence": [
+        "D10:4",
+        "D10:6"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 37.45,
+      "answer_api_latency_ms": 1378.2
+    },
+    {
+      "sample_id": "conv-47",
+      "qa_index": 138,
+      "strategy": "semantic",
+      "question": "What inspired James to create his game?",
+      "reference_answer": "Witcher 3",
+      "evidence": [
+        "D27:6"
+      ],
+      "llm_answer": "He says he was inspired by his love of strategy games (Civilization and Total War) to challenge himself and create his own game, and Witcher 3 also provided inspiration.",
+      "correct": 1,
+      "retrieval_latency_ms": 282.39,
+      "answer_api_latency_ms": 1885.99
+    },
+    {
+      "sample_id": "conv-43",
+      "qa_index": 44,
+      "strategy": "recency",
+      "question": "When did John and his wife go on a European vacation?",
+      "reference_answer": "November, 2023.",
+      "evidence": [
+        "D16:14"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 41.14,
+      "answer_api_latency_ms": 1638.71
+    },
+    {
+      "sample_id": "conv-26",
+      "qa_index": 62,
+      "strategy": "recency",
+      "question": "When did Melanie go to the park?",
+      "reference_answer": "27 August 2023",
+      "evidence": [
+        "D15:2"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 27.76,
+      "answer_api_latency_ms": 952.19
+    },
+    {
+      "sample_id": "conv-48",
+      "qa_index": 80,
+      "strategy": "semantic",
+      "question": "Has Jolene tried surfing?",
+      "reference_answer": "no",
+      "evidence": [
+        "D10:20",
+        "D29:26",
+        "D29:30"
+      ],
+      "llm_answer": "No. Jolene has not tried surfing yet; she’s only gathered information and hasn’t decided to try.",
+      "correct": 1,
+      "retrieval_latency_ms": 236.01,
+      "answer_api_latency_ms": 1728.85
+    },
+    {
+      "sample_id": "conv-43",
+      "qa_index": 44,
+      "strategy": "bm25",
+      "question": "When did John and his wife go on a European vacation?",
+      "reference_answer": "November, 2023.",
+      "evidence": [
+        "D16:14"
+      ],
+      "llm_answer": "6 November, 2023.",
+      "correct": 1,
+      "retrieval_latency_ms": 37.78,
+      "answer_api_latency_ms": 1668.56
+    },
+    {
+      "sample_id": "conv-49",
+      "qa_index": 112,
+      "strategy": "bm25",
+      "question": "What suggestion did Sam give to Evan to help with his knee issue?",
+      "reference_answer": "Consider low-impact exercises or physical therapy",
+      "evidence": [
+        "D9:5"
+      ],
+      "llm_answer": "Sam suggested: \"Are there any ways to stay active while you heal up?\"",
+      "correct": 0,
+      "retrieval_latency_ms": 30.08,
+      "answer_api_latency_ms": 2170.84
+    },
+    {
+      "sample_id": "conv-42",
+      "qa_index": 5,
+      "strategy": "recency",
+      "question": "What are Joanna's hobbies?",
+      "reference_answer": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+      "evidence": [
+        "D1:10",
+        "D2:25"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 37.34,
+      "answer_api_latency_ms": 1145.6
+    },
+    {
+      "sample_id": "conv-43",
+      "qa_index": 140,
+      "strategy": "bm25",
+      "question": "How did John overcome a mistake he made during a big game in basketball?",
+      "reference_answer": "Worked hard to get better and focused on growth",
+      "evidence": [
+        "D19:10"
+      ],
+      "llm_answer": "He worked hard to get better, embraced resilience, and owned up to the mistake.",
+      "correct": 1,
+      "retrieval_latency_ms": 39.31,
+      "answer_api_latency_ms": 1705.34
+    },
+    {
+      "sample_id": "conv-47",
+      "qa_index": 138,
+      "strategy": "recency",
+      "question": "What inspired James to create his game?",
+      "reference_answer": "Witcher 3",
+      "evidence": [
+        "D27:6"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 41.72,
+      "answer_api_latency_ms": 1033.33
+    },
+    {
+      "sample_id": "conv-43",
+      "qa_index": 44,
+      "strategy": "semantic",
+      "question": "When did John and his wife go on a European vacation?",
+      "reference_answer": "November, 2023.",
+      "evidence": [
+        "D16:14"
+      ],
+      "llm_answer": "6 November, 2023.",
+      "correct": 1,
+      "retrieval_latency_ms": 273.45,
+      "answer_api_latency_ms": 1582.52
+    },
+    {
+      "sample_id": "conv-49",
+      "qa_index": 72,
+      "strategy": "recency",
+      "question": "Which activity did Sam resume in December 2023 after a long time?",
+      "reference_answer": "hiking",
+      "evidence": [
+        "D20:6",
+        "D22:1"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 29.9,
+      "answer_api_latency_ms": 1426.31
+    },
+    {
+      "sample_id": "conv-41",
+      "qa_index": 12,
+      "strategy": "recency",
+      "question": "What test has John taken multiple times?",
+      "reference_answer": "The military aptitude test",
+      "evidence": [
+        "D8:18",
+        "D3:11"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 38.95,
+      "answer_api_latency_ms": 975.78
+    },
+    {
+      "sample_id": "conv-44",
+      "qa_index": 99,
+      "strategy": "semantic",
+      "question": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+      "reference_answer": "Took them to the beach",
+      "evidence": [
+        "D21:2"
+      ],
+      "llm_answer": "She took them to the beach, and watched them play in the ocean.",
+      "correct": 1,
+      "retrieval_latency_ms": 254.16,
+      "answer_api_latency_ms": 1387.26
+    },
+    {
+      "sample_id": "conv-48",
+      "qa_index": 80,
+      "strategy": "recency",
+      "question": "Has Jolene tried surfing?",
+      "reference_answer": "no",
+      "evidence": [
+        "D10:20",
+        "D29:26",
+        "D29:30"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 45.1,
+      "answer_api_latency_ms": 1137.07
+    },
+    {
+      "sample_id": "conv-44",
+      "qa_index": 3,
+      "strategy": "semantic",
+      "question": "What kind of places have Andrew and his girlfriend checked out around the city?",
+      "reference_answer": "cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+      "evidence": [
+        "D3:1",
+        "D3:11",
+        "D4:2",
+        "D6:1",
+        "D13:1",
+        "D23:3",
+        "D25:1",
+        "D27:1"
+      ],
+      "llm_answer": "They’ve checked out dog- or pet-friendly spots and places to eat around town, including a cozy cafe.",
+      "correct": 0,
+      "retrieval_latency_ms": 361.42,
+      "answer_api_latency_ms": 2807.2
+    },
+    {
+      "sample_id": "conv-49",
+      "qa_index": 112,
+      "strategy": "semantic",
+      "question": "What suggestion did Sam give to Evan to help with his knee issue?",
+      "reference_answer": "Consider low-impact exercises or physical therapy",
+      "evidence": [
+        "D9:5"
+      ],
+      "llm_answer": "Sam suggested exploring fun indoor activities or hobbies to stay active while healing the knee.",
+      "correct": 0,
+      "retrieval_latency_ms": 248.82,
+      "answer_api_latency_ms": 1819.76
+    },
+    {
+      "sample_id": "conv-41",
+      "qa_index": 12,
+      "strategy": "bm25",
+      "question": "What test has John taken multiple times?",
+      "reference_answer": "The military aptitude test",
+      "evidence": [
+        "D8:18",
+        "D3:11"
+      ],
+      "llm_answer": "the aptitude test.",
+      "correct": 1,
+      "retrieval_latency_ms": 37.65,
+      "answer_api_latency_ms": 1697.31
+    },
+    {
+      "sample_id": "conv-48",
+      "qa_index": 148,
+      "strategy": "bm25",
+      "question": "What journal has Jolene been using to help track tasks and stay organized?",
+      "reference_answer": "bullet journal",
+      "evidence": [
+        "D18:3"
+      ],
+      "llm_answer": "A bullet journal.",
+      "correct": 1,
+      "retrieval_latency_ms": 38.41,
+      "answer_api_latency_ms": 1140.89
+    },
+    {
+      "sample_id": "conv-50",
+      "qa_index": 154,
+      "strategy": "recency",
+      "question": "What event did Calvin attend in Boston?",
+      "reference_answer": "Fancy gala",
+      "evidence": [
+        "D30:2"
+      ],
+      "llm_answer": "He performed at an upcoming show in Boston.",
+      "correct": 0,
+      "retrieval_latency_ms": 33.75,
+      "answer_api_latency_ms": 1914.29
+    },
+    {
+      "sample_id": "conv-26",
+      "qa_index": 62,
+      "strategy": "semantic",
+      "question": "When did Melanie go to the park?",
+      "reference_answer": "27 August 2023",
+      "evidence": [
+        "D15:2"
+      ],
+      "llm_answer": "27 August 2023",
+      "correct": 1,
+      "retrieval_latency_ms": 194.97,
+      "answer_api_latency_ms": 1735.47
+    },
+    {
+      "sample_id": "conv-43",
+      "qa_index": 140,
+      "strategy": "recency",
+      "question": "How did John overcome a mistake he made during a big game in basketball?",
+      "reference_answer": "Worked hard to get better and focused on growth",
+      "evidence": [
+        "D19:10"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 40.04,
+      "answer_api_latency_ms": 1070.01
+    },
+    {
+      "sample_id": "conv-47",
+      "qa_index": 23,
+      "strategy": "bm25",
+      "question": "When will John start his new job?",
+      "reference_answer": "In July, 2022",
+      "evidence": [
+        "D13:5"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 39.73,
+      "answer_api_latency_ms": 1937.18
+    },
+    {
+      "sample_id": "conv-26",
+      "qa_index": 104,
+      "strategy": "semantic",
+      "question": "What book did Caroline recommend to Melanie?",
+      "reference_answer": "\"Becoming Nicole\"",
+      "evidence": [
+        "D7:11"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 188.73,
+      "answer_api_latency_ms": 1493.83
+    },
+    {
+      "sample_id": "conv-44",
+      "qa_index": 99,
+      "strategy": "bm25",
+      "question": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+      "reference_answer": "Took them to the beach",
+      "evidence": [
+        "D21:2"
+      ],
+      "llm_answer": "She took them to the beach and watched them playing in the ocean.",
+      "correct": 1,
+      "retrieval_latency_ms": 40.15,
+      "answer_api_latency_ms": 1756.92
+    },
+    {
+      "sample_id": "conv-49",
+      "qa_index": 112,
+      "strategy": "recency",
+      "question": "What suggestion did Sam give to Evan to help with his knee issue?",
+      "reference_answer": "Consider low-impact exercises or physical therapy",
+      "evidence": [
+        "D9:5"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 33.07,
+      "answer_api_latency_ms": 1071.35
+    },
+    {
+      "sample_id": "conv-48",
+      "qa_index": 80,
+      "strategy": "bm25",
+      "question": "Has Jolene tried surfing?",
+      "reference_answer": "no",
+      "evidence": [
+        "D10:20",
+        "D29:26",
+        "D29:30"
+      ],
+      "llm_answer": "No. Jolene hasn’t tried surfing yet; she’s been gathering information, watching videos, and planning to take a lesson.",
+      "correct": 1,
+      "retrieval_latency_ms": 40.63,
+      "answer_api_latency_ms": 1886.46
+    },
+    {
+      "sample_id": "conv-30",
+      "qa_index": 13,
+      "strategy": "recency",
+      "question": "When did Gina open her online clothing store?",
+      "reference_answer": "16 March, 2023",
+      "evidence": [
+        "D6:6"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 24.06,
+      "answer_api_latency_ms": 1196.68
+    },
+    {
+      "sample_id": "conv-50",
+      "qa_index": 52,
+      "strategy": "semantic",
+      "question": "When did Calvin plan on travelling to Tokyo the second time?",
+      "reference_answer": "November 2023",
+      "evidence": [
+        "D24:17"
+      ],
+      "llm_answer": "November 2023.",
+      "correct": 1,
+      "retrieval_latency_ms": 219.67,
+      "answer_api_latency_ms": 1593.59
+    },
+    {
+      "sample_id": "conv-30",
+      "qa_index": 13,
+      "strategy": "semantic",
+      "question": "When did Gina open her online clothing store?",
+      "reference_answer": "16 March, 2023",
+      "evidence": [
+        "D6:6"
+      ],
+      "llm_answer": "March 16, 2023.",
+      "correct": 1,
+      "retrieval_latency_ms": 189.37,
+      "answer_api_latency_ms": 2435.13
+    },
+    {
+      "sample_id": "conv-41",
+      "qa_index": 12,
+      "strategy": "semantic",
+      "question": "What test has John taken multiple times?",
+      "reference_answer": "The military aptitude test",
+      "evidence": [
+        "D8:18",
+        "D3:11"
+      ],
+      "llm_answer": "The aptitude test.",
+      "correct": 1,
+      "retrieval_latency_ms": 302.0,
+      "answer_api_latency_ms": 1285.85
+    },
+    {
+      "sample_id": "conv-41",
+      "qa_index": 76,
+      "strategy": "recency",
+      "question": "Why did John decide to run for office again?",
+      "reference_answer": "saw the impact he could make in the community through politics",
+      "evidence": [
+        "D7:4"
+      ],
+      "llm_answer": "Insufficient evidence.",
+      "correct": 0,
+      "retrieval_latency_ms": 39.1,
+      "answer_api_latency_ms": 1291.99
+    },
+    {
+      "sample_id": "conv-41",
+      "qa_index": 76,
+      "strategy": "semantic",
+      "question": "Why did John decide to run for office again?",
+      "reference_answer": "saw the impact he could make in the community through politics",
+      "evidence": [
+        "D7:4"
+      ],
+      "llm_answer": "Because he can't let go of his dream to make a difference in his community.",
+      "correct": 1,
+      "retrieval_latency_ms": 252.5,
+      "answer_api_latency_ms": 1639.7
+    },
+    {
+      "sample_id": "conv-48",
+      "qa_index": 148,
+      "strategy": "semantic",
+      "question": "What journal has Jolene been using to help track tasks and stay organized?",
+      "reference_answer": "bullet journal",
+      "evidence": [
+        "D18:3"
+      ],
+      "llm_answer": "A bullet journal.",
+      "correct": 1,
+      "retrieval_latency_ms": 283.95,
+      "answer_api_latency_ms": 1070.71
+    },
+    {
+      "sample_id": "conv-26",
+      "qa_index": 62,
+      "strategy": "bm25",
+      "question": "When did Melanie go to the park?",
+      "reference_answer": "27 August 2023",
+      "evidence": [
+        "D15:2"
+      ],
+      "llm_answer": "27 August, 2023.",
+      "correct": 1,
+      "retrieval_latency_ms": 27.63,
+      "answer_api_latency_ms": 1557.19
+    },
+    {
+      "sample_id": "conv-30",
+      "qa_index": 13,
+      "strategy": "bm25",
+      "question": "When did Gina open her online clothing store?",
+      "reference_answer": "16 March, 2023",
+      "evidence": [
+        "D6:6"
+      ],
+      "llm_answer": "16 March 2023",
+      "correct": 1,
+      "retrieval_latency_ms": 21.72,
+      "answer_api_latency_ms": 2331.05
+    },
+    {
+      "sample_id": "conv-47",
+      "qa_index": 138,
+      "strategy": "bm25",
+      "question": "What inspired James to create his game?",
+      "reference_answer": "Witcher 3",
+      "evidence": [
+        "D27:6"
+      ],
+      "llm_answer": "Witcher 3—its amazing world and story inspired him to create something cool.",
+      "correct": 1,
+      "retrieval_latency_ms": 39.56,
+      "answer_api_latency_ms": 2096.57
+    }
+  ]
+}

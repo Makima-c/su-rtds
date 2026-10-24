@@ -1,0 +1,32 @@
+[
+  {
+    "retrieval_method": "recency",
+    "total_questions": 20,
+    "correct_answers": 0,
+    "answer_accuracy_percent": 0,
+    "evidence_recall_percent": 0.0,
+    "average_retrieval_latency_ms": 65.96,
+    "average_answer_api_latency_ms": 1248.29,
+    "average_total_latency_ms": 1314.25
+  },
+  {
+    "retrieval_method": "bm25",
+    "total_questions": 20,
+    "correct_answers": 14,
+    "answer_accuracy_percent": 70.0,
+    "evidence_recall_percent": 64.17,
+    "average_retrieval_latency_ms": 64.77,
+    "average_answer_api_latency_ms": 1915.16,
+    "average_total_latency_ms": 1979.93
+  },
+  {
+    "retrieval_method": "semantic",
+    "total_questions": 20,
+    "correct_answers": 15,
+    "answer_accuracy_percent": 75.0,
+    "evidence_recall_percent": 81.88,
+    "average_retrieval_latency_ms": 258.85,
+    "average_answer_api_latency_ms": 1603.37,
+    "average_total_latency_ms": 1862.21
+  }
+]

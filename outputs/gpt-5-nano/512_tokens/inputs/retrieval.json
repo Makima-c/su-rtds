@@ -1,0 +1,1219 @@
+[
+  {
+    "sample_id": "conv-47",
+    "qa_index": 23,
+    "strategy": "semantic",
+    "context": "[D8:5 | 2:36 pm on 29 April, 2022 | James]\nCongrats on your first professional project, John! Bet it's been great applying what you learned in class. How's the progress been?\n\n[D11:16 | 5:00 pm on 11 May, 2022 | James]\nI'm sure you'll find the right spot, John. Your skills and passions will be a great addition. Good luck!\n\n[D13:3 | 4:30 pm on 13 June, 2022 | John]\nI finally got my dream job! After lots of interviews and late nights, I got the offer and was ecstatic. Can't wait to start my journey!\n\n[D13:4 | 4:30 pm on 13 June, 2022 | James]\nWow, John! Congrats on getting your dream job. I'm super stoked for you. When do you start?\n\n[D13:5 | 4:30 pm on 13 June, 2022 | John]\nThank you! ! I'm starting next month.\n\n[D13:20 | 4:30 pm on 13 June, 2022 | James]\nSure, John!\n\n[D15:14 | 9:59 pm on 19 June, 2022 | John]\nThank you very much! Will there be some kind of interview required?\n\n[D16:12 | 5:13 pm on 9 July, 2022 | John]\nWhen are you coming back?\n\n[D18:1 | 1:45 pm on 6 August, 2022 | John]\nHey James, good catching up! Been a while huh? I made a huge call - recently left my IT job after 3 years. It was tough but I wanted something that made a difference. And now with this new job, I am happy about my decision. I am loving the new job!\n\n[D18:2 | 1:45 pm on 6 August, 2022 | James]\nHey John! Great to hear from you. Leaving after 3 years is a big step - how did it feel?\n\n[D21:19 | 9:18 pm on 26 August, 2022 | James]\nSee you John, bye!\n\n[D25:2 | 8:56 pm on 20 September, 2022 | James]\nHey John! What new has happened in your life?",
+    "retrieved_ids": [
+      "D8:5",
+      "D11:16",
+      "D13:3",
+      "D13:4",
+      "D13:5",
+      "D13:20",
+      "D15:14",
+      "D16:12",
+      "D18:1",
+      "D18:2",
+      "D21:19",
+      "D25:2"
+    ],
+    "memory_tokens": 489,
+    "retrieval_latency_ms": 241.31
+  },
+  {
+    "sample_id": "conv-42",
+    "qa_index": 93,
+    "strategy": "semantic",
+    "context": "[D1:4 | 7:31 pm on 21 January, 2022 | Joanna]\nWow Nate! Congrats on winning! Tell me more - what game was it?\n\n[D10:4 | 11:54 am on 2 May, 2022 | Nate]\nGaming has been my focus - practicing a lot and even winning a few tournaments. Last week I won my second tournament!\n\n[D10:6 | 11:54 am on 2 May, 2022 | Nate]\nThanks! I usually play CS:GO, but I tried my hand at the local Street Fighter tournament this time since I play that game a lot with my friends, and turns out I'm really good!\n\n[D14:9 | 5:44 pm on 3 June, 2022 | Joanna]\nWay to go, Nate! Congratulations on your victory in the tournament! It must feel great to be recognized for your gaming skills.\n\n[D14:12 | 5:44 pm on 3 June, 2022 | Nate]\nThanks! I has been a while since my first tournament hasn't it? I appreciate your support!\n\n[D17:1 | 2:34 pm on 10 July, 2022 | Nate]\nHey Joanna, check this out! I won my fourth video game tournament on Friday! It was awesome competing and showing off my skills - and the victory was indescribable. I'm really proud that I can make money doing what I love. This one was online!\n\n[D19:2 | 10:57 am on 22 August, 2022 | Joanna]\nCongrats, Nate! So proud of you for winning that tournament, that's awesome! Must feel great to turn your passion into a career.\n\n[D22:3 | 11:15 am on 6 October, 2022 | Joanna]\nWay to go, Nate! Winning the tournament and earning cash is awesome - congrats! Did you save it for something special?\n\n[D23:30 | 10:58 am on 9 October, 2022 | Joanna]\nSee ya Nate!\n\n[D26:12 | 3:56 pm on 4 November, 2022 | Nate]\nJust been helping some friends reset their high scores at the international tournament. It's been fun!\n\n[D28:2 | 5:54 pm on 9 November, 2022 | Joanna]\nHey Nate, that looks yummy! Wish I could try it, but I can't right now. How did the last game tournament go?",
+    "retrieved_ids": [
+      "D1:4",
+      "D10:4",
+      "D10:6",
+      "D14:9",
+      "D14:12",
+      "D17:1",
+      "D19:2",
+      "D22:3",
+      "D23:30",
+      "D26:12",
+      "D28:2"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 242.14
+  },
+  {
+    "sample_id": "conv-50",
+    "qa_index": 52,
+    "strategy": "recency",
+    "context": "[D30:15 | 10:54 am on 17 November, 2023 | Dave]\nThanks, Calvin! I found this serene spot in a nearby park and took this pic.\n\n[D30:16 | 10:54 am on 17 November, 2023 | Calvin]\nWow, that sounds like such a peaceful and serene spot. Can't wait to check it out myself sometime. Check out this beautiful picture that I shot in a Japanese garden, that's wild!\n\n[D30:17 | 10:54 am on 17 November, 2023 | Dave]\nCool, Calvin! Found an even better spot, with a bench under a tree with pink flowers - so peaceful. A perfect spot to relax and take in the beauty.\n\n[D30:18 | 10:54 am on 17 November, 2023 | Calvin]\nThat sounds great, Dave! Can't wait to see it.\n\n[D30:19 | 10:54 am on 17 November, 2023 | Dave]\nCheck it out, Calvin. It's really calming, I think you'll like it. We will definitely go there! Is there anything else you'd like to share?\n\n[D30:20 | 10:54 am on 17 November, 2023 | Calvin]\nThank you for asking, Dave! Yes, I have a few more great news! I've accepted an invitation to perform at an upcoming show in Boston! It's going to be an unforgettable musical experience. Can't wait to fill you in on all the details. Catch up with you soon!\n\n[D30:21 | 10:54 am on 17 November, 2023 | Dave]\nWow, Calvin! That's amazing news! Congratulations on both the gala attendance and the upcoming performance. I can't wait to hear all about it and maybe even catch one of your shows in Boston. Let me know when you're free to catch up. Cheers to your musical journey!\n\n[D30:22 | 10:54 am on 17 November, 2023 | Calvin]\nThanks, Dave! I'll catch you when I'm in Boston. Cheers!\n\n[D30:23 | 10:54 am on 17 November, 2023 | Dave]\nLooking forward to seeing you. Stay safe, talk to you soon!\n\n[D30:24 | 10:54 am on 17 November, 2023 | Calvin]\nThanks! You too. Talk to you later!",
+    "retrieved_ids": [
+      "D30:15",
+      "D30:16",
+      "D30:17",
+      "D30:18",
+      "D30:19",
+      "D30:20",
+      "D30:21",
+      "D30:22",
+      "D30:23",
+      "D30:24"
+    ],
+    "memory_tokens": 490,
+    "retrieval_latency_ms": 32.08
+  },
+  {
+    "sample_id": "conv-30",
+    "qa_index": 74,
+    "strategy": "semantic",
+    "context": "[D1:4 | 4:04 pm on 20 January, 2023 | Jon]\nSorry to hear that! I'm starting a dance studio 'cause I'm passionate about dancing and it'd be great to share it with others.\n\n[D1:6 | 4:04 pm on 20 January, 2023 | Jon]\nI've been into dancing since I was a kid and it's been my passion and escape. I wanna start a dance studio so I can teach others the joy that dancing brings me.\n\n[D8:12 | 1:26 pm on 3 April, 2023 | Gina]\nYeah, I have a few plans. I'm thinking of working with some fashion bloggers and influencers in the next few months to get more attention for my store. Plus, I'm going to do more ads so I can reach more people. I'm really focused on building my customer base and making my store a top destination for fashion fans. It's awesome to see it all coming together! You, Jon? What do you have going for your dance studio?\n\n[D8:13 | 1:26 pm on 3 April, 2023 | Jon]\nThanks, Gina! I'm expanding my dance studio's social media presence and offering workshops and classes to local schools and centers. I'm also hosting a dance competition next month to showcase local talent and bring more attention to my studio. All the work's paying off - I'm seeing progress and the dancers are so excited. It's such a great feeling to give a place where people can express themselves through dance!\n\n[D9:2 | 10:33 am on 9 April, 2023 | Gina]\nHey Jon! Wow, way to take your passion and make it into a biz! The dance studio looks awesome.\n\n[D11:12 | 3:14 pm on 11 May, 2023 | Gina]\nThat's a great dream, Jon! Giving people a place to express themselves with dance is really important. Your studio is gonna make a huge difference. Can't wait to see it happen!\n\n[D12:7 | 7:18 pm on 27 May, 2023 | Gina]\nIt sounds great! Could it spark any ideas for your dance studio?\n\n[D13:3 | 8:29 pm on 13 June, 2023 | Jon]\n I'm prepping for my dance studio more than ever!\n\n[D15:3 | 10:04 am on 19 June, 2023 | Jon]\nThanks, Gina. Still working on opening a dance studio.",
+    "retrieved_ids": [
+      "D1:4",
+      "D1:6",
+      "D8:12",
+      "D8:13",
+      "D9:2",
+      "D11:12",
+      "D12:7",
+      "D13:3",
+      "D15:3"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 165.71
+  },
+  {
+    "sample_id": "conv-41",
+    "qa_index": 76,
+    "strategy": "bm25",
+    "context": "[D5:7 | 1:17 pm on 28 January, 2023 | John]\nWow, Maria! That's really making a big impact. What made you decide to get involved with that?\n\n[D6:4 | 2:33 pm on 5 February, 2023 | John]\nI feel a strong urge to serve my country and community. Running for office was my chance to make an impact. But anyway, tell me more about your charity event. Did something special happen that made it meaningful for you?\n\n[D7:2 | 8:55 pm on 25 February, 2023 | John]\nHey Maria! Wanted to let you know that I'm running for office again. It's been a wild ride, but I'm more excited than ever! How have you been?\n\n[D7:3 | 8:55 pm on 25 February, 2023 | Maria]\nCongrats, John! What made you decide to run again? As for me, I've been volunteering at a homeless shelter and it's really rewarding.\n\n[D10:10 | 12:24 am on 7 April, 2023 | Maria]\nLast weekend I did something new that had an impact on me. I participated in a 5K charity run for a homeless shelter. It was awesome being surrounded by people all there for the same cause. There's something special about the energy and sense of unity. It was truly rewarding and reminded me why I'm passionate about charity work.\n\n[D14:1 | 5:04 pm on 6 May, 2023 | John]\nHey Maria, great to chat again! A lot has happened since we last spoke. Last week, I decided to run for office again - even though I haven't been successful before. I guess I can't let go of my dream to make a difference in my community. Can you believe it? Feels like a dream come true!\n\n[D15:2 | 7:38 pm on 20 May, 2023 | Maria]\nHey John, I'm good. Sorry to hear it's been rough. How did you decide to take on that project?\n\n[D29:4 | 8:06 pm on 9 August, 2023 | John]\nI set up a 5K charity run in our neighborhood. It was all for a good cause - to help out veterans and their families. We were able to raise some funds! Here's a pic from the day.",
+    "retrieved_ids": [
+      "D5:7",
+      "D6:4",
+      "D7:2",
+      "D7:3",
+      "D10:10",
+      "D14:1",
+      "D15:2",
+      "D29:4"
+    ],
+    "memory_tokens": 494,
+    "retrieval_latency_ms": 37.51
+  },
+  {
+    "sample_id": "conv-42",
+    "qa_index": 5,
+    "strategy": "semantic",
+    "context": "[D1:1 | 7:31 pm on 21 January, 2022 | Nate]\nHey Joanna! Long time no see! What's up? Anything fun going on?\n\n[D1:2 | 7:31 pm on 21 January, 2022 | Joanna]\nHey Nate! Long time no see! I've been working on a project lately - it's been pretty cool. What about you - any fun projects or hobbies?\n\n[D1:10 | 7:31 pm on 21 January, 2022 | Joanna]\nYeah! Besides writing, I also enjoy reading, watching movies, and exploring nature. Anything else you enjoy doing, Nate?\n\n[D2:25 | 2:01 pm on 23 January, 2022 | Joanna]\nWriting and hanging with friends! That way I can express myself through stories, or just have a good time with people.\n\n[D9:7 | 7:44 pm on 21 April, 2022 | Joanna]\nYeah, that's me in that photo! Acting was my first passion, but now I really shine in writing. It helps me express myself in a new way, but who knows, maybe I'll go back to acting someday. Never say never!\n\n[D9:13 | 7:44 pm on 21 April, 2022 | Joanna]\nWow, that's great to hear! What books do you enjoy? I'm always up for some new book recommendations.\n\n[D10:9 | 11:54 am on 2 May, 2022 | Joanna]\nNot much is new other than the screenplay. Been working on some projects and testing out dairy-free dessert recipes for friends and fam. Here's a pic of a cake I made recently!\n\n[D11:11 | 3:35 pm on 12 May, 2022 | Joanna]\nNature totally inspires me and it's so calming to be surrounded by its beauty. Hiking has opened up a whole new world for me and I feel like a different person now.\n\n[D14:15 | 5:44 pm on 3 June, 2022 | Joanna]\nSounds like fun! It's good to have friends that share your interests!\n\n[D22:21 | 11:15 am on 6 October, 2022 | Joanna]\nThanks Nate! I absolutley love DIYs, and I know she does too.\n\n[D25:14 | 8:16 pm on 25 October, 2022 | Joanna]\nAwesome! Well enough about me, what have you been up to?",
+    "retrieved_ids": [
+      "D1:1",
+      "D1:2",
+      "D1:10",
+      "D2:25",
+      "D9:7",
+      "D9:13",
+      "D10:9",
+      "D11:11",
+      "D14:15",
+      "D22:21",
+      "D25:14"
+    ],
+    "memory_tokens": 512,
+    "retrieval_latency_ms": 229.18
+  },
+  {
+    "sample_id": "conv-50",
+    "qa_index": 52,
+    "strategy": "bm25",
+    "context": "[D3:1 | 4:15 pm on 20 April, 2023 | Calvin]\nHey Dave! Long time no see. I just went to an awesome music thingy in Tokyo - so cool!\n\n[D3:2 | 4:15 pm on 20 April, 2023 | Dave]\nHey Calvin! Great to hear from you. How was the music thingy in Tokyo? See any cool bands?\n\n[D7:1 | 6:06 pm on 31 May, 2023 | Calvin]\nHey Dave! Been ages since we chatted. So much has gone down. Touring with Frank Ocean last week was wild. Tokyo was unreal -- the crowd was insane. I felt so alive when performing, can't find the words to express it.\n\n[D7:18 | 6:06 pm on 31 May, 2023 | Dave]\nGreat, Calvin! Have a great time in Boston. Can't wait to hear all about it when you get back!\n\n[D8:11 | 2:31 pm on 9 June, 2023 | Calvin]\nCool, Dave! Have a great time. I'm sure it's going to be an amazing experience. Take lots of pics and show me when you get back.\n\n[D10:4 | 7:56 pm on 7 July, 2023 | Calvin]\n\nThat sounds like a great plan! Regular walks with friends can be a wonderful way to spend time together and stay active. Fresh air and buddies can do wonders. Do you have a favorite spot for hanging out?\n\n[D14:5 | 12:35 am on 14 August, 2023 | Dave]\nWow, Calvin! I bet playing for an eager audience was an incredible experience. Exploring Japan must have been amazing! How did Tokyo react to your music? Did you have any special moments there?\n\n[D24:18 | 10:11 am on 19 October, 2023 | Dave]\nWow, Calvin! That's great to hear! Any specific spots in Tokyo that you're really excited to check out?\n\n[D28:15 | 5:46 pm on 2 November, 2023 | Calvin]\nWow Dave, those headlights look great! What did you do to get them looking so good?\n\n[D28:19 | 5:46 pm on 2 November, 2023 | Calvin]\nThanks! Where did you get this car?",
+    "retrieved_ids": [
+      "D3:1",
+      "D3:2",
+      "D7:1",
+      "D7:18",
+      "D8:11",
+      "D10:4",
+      "D14:5",
+      "D24:18",
+      "D28:15",
+      "D28:19"
+    ],
+    "memory_tokens": 489,
+    "retrieval_latency_ms": 31.45
+  },
+  {
+    "sample_id": "conv-50",
+    "qa_index": 154,
+    "strategy": "bm25",
+    "context": "[D1:3 | 11:53 am on 23 March, 2023 | Calvin]\nThat event sounds great! Something really exciting happened to me - I just had a big life change! Here's my new mansion - pretty cool huh?\n\n[D3:4 | 4:15 pm on 20 April, 2023 | Dave]\nWow, Calvin, sounds great! What did you learn from it?\n\n[D7:15 | 6:06 pm on 31 May, 2023 | Calvin]\nCool, can't wait for the tour with Frank! I'm buzzing to perform in Boston and see what it's like. Gonna be great playing for folks from home. What do you think of the music scene there?\n\n[D19:1 | 12:13 am on 15 September, 2023 | Dave]\nHey Calvin! Long time no talk! Got some cool news to share - last night was a blast! My band and I were jamming and the music just kept flowing. We had so much fun rehearsing! Also, last weekend, I had the opportunity to attend a rock concert here in Boston. Just take a look at what an amazing atmosphere it was!\n\n[D21:2 | 2:44 pm on 4 October, 2023 | Dave]\nAwesome, Calvin! Connecting with all those talented artists must have been an inspiring experience. Can't wait to hear what you come up with in your collaboration. Let me know how it goes! Also, how did you arrange that meeting?\n\n[D27:1 | 10:49 am on 29 October, 2023 | Calvin]\nHey Dave! Since we last talked, I went to a networking event to meet more artists. So cool! The people I met will help me build up my fan base. Super excited about what it could lead to. You? Anything new since we last spoke?\n\n[D28:15 | 5:46 pm on 2 November, 2023 | Calvin]\nWow Dave, those headlights look great! What did you do to get them looking so good?\n\n[D30:3 | 10:54 am on 17 November, 2023 | Dave]\nCalvin, that event looks amazing! You all look awesome. Who did you have the most interesting chat with?\n\n[D30:22 | 10:54 am on 17 November, 2023 | Calvin]\nThanks, Dave! I'll catch you when I'm in Boston. Cheers!",
+    "retrieved_ids": [
+      "D1:3",
+      "D3:4",
+      "D7:15",
+      "D19:1",
+      "D21:2",
+      "D27:1",
+      "D28:15",
+      "D30:3",
+      "D30:22"
+    ],
+    "memory_tokens": 502,
+    "retrieval_latency_ms": 32.49
+  },
+  {
+    "sample_id": "conv-44",
+    "qa_index": 99,
+    "strategy": "recency",
+    "context": "[D28:9 | 9:02 am on 22 November, 2023 | Audrey]\nThat's a great name for your pup! Fits their adventurous spirit. What's Scout's first adventure gonna be?\n\n[D28:11 | 9:02 am on 22 November, 2023 | Audrey]\nSounds like a great start for Scout! Start small, and gradually give them more exposure. They'll have a great time, just make sure to keep them leashed.\n\n[D28:12 | 9:02 am on 22 November, 2023 | Andrew]\nYeah, safety first! For now, we're keeping the new addition on a leash while they get used to being outside. That pic you of your dog at the park is so cute. So we got some essentials for their comfort and entertainment, like a bed, toys, and some puppy pads just in case. It's like their own little safe haven.\n\n[D28:13 | 9:02 am on 22 November, 2023 | Audrey]\nWow, that's so great that you two are creating a safe and fun space for Scout. It's really important they have a place that makes them feel secure. Slowly introduce Scout to Toby and Buddy, it takes time for the pups to get used to each other too! Scout is so lucky to have you and your girlfriend! \n\n[D28:14 | 9:02 am on 22 November, 2023 | Andrew]\nThanks! We feel so lucky to have Scout. It's been amazing having so many furry friends! How are your dogs doing now? \n\n[D28:15 | 9:02 am on 22 November, 2023 | Audrey]\nThey're doing great! Exploring, meeting new people...they feel so loved and safe. I'm really glad they're part of my life!\n\n[D28:16 | 9:02 am on 22 November, 2023 | Andrew]\nThat's great to hear! Dogs truly bring so much joy and friendship. I'm glad they're happy with you.\n\n[D28:17 | 9:02 am on 22 November, 2023 | Audrey]\nThanks! They're really awesome and bring so much joy and friendship. I'm so grateful to have them in my life as a part of my family.\n\n[D28:18 | 9:02 am on 22 November, 2023 | Andrew]\nYeah, it's great! Dogs are always there for us. We should count ourselves lucky to have such amazing furry friends as family member.",
+    "retrieved_ids": [
+      "D28:9",
+      "D28:11",
+      "D28:12",
+      "D28:13",
+      "D28:14",
+      "D28:15",
+      "D28:16",
+      "D28:17",
+      "D28:18"
+    ],
+    "memory_tokens": 508,
+    "retrieval_latency_ms": 40.61
+  },
+  {
+    "sample_id": "conv-42",
+    "qa_index": 5,
+    "strategy": "bm25",
+    "context": "[D1:2 | 7:31 pm on 21 January, 2022 | Joanna]\nHey Nate! Long time no see! I've been working on a project lately - it's been pretty cool. What about you - any fun projects or hobbies?\n\n[D1:9 | 7:31 pm on 21 January, 2022 | Nate]\nIt was! How about you? Do you have any hobbies you love?\n\n[D1:11 | 7:31 pm on 21 January, 2022 | Nate]\nPlaying video games and watching movies are my main hobbies.\n\n[D1:13 | 7:31 pm on 21 January, 2022 | Nate]\nI love action and sci-fi movies, the effects are so cool! What about you, what's your favorite genre?\n\n[D2:22 | 2:01 pm on 23 January, 2022 | Nate]\nSorry to hear that. Allergies can be tough. What specifically are you allergic to?\n\n[D2:24 | 2:01 pm on 23 January, 2022 | Nate]\nAwesome! There are lots of things that can bring you joy without pets. What else brings you joy?\n\n[D9:2 | 7:44 pm on 21 April, 2022 | Nate]\nHey Joanna! That's awesome! Having a supportive group around you can really make a difference. What kind of projects are you working on with them?\n\n[D12:10 | 7:49 pm on 20 May, 2022 | Joanna]\nWriting and creative projects are what get me through tough times. I'm also grateful for my supportive friends.\n\n[D14:21 | 5:44 pm on 3 June, 2022 | Joanna]\nOh? Are you going to invite your tournament friends?\n\n[D20:5 | 6:03 pm on 5 September, 2022 | Nate]\nWhat else are you making? It's always satisfying to see the kind of things you do when your in one of those moods!\n\n[D20:7 | 6:03 pm on 5 September, 2022 | Nate]\nWow, that sounds great! What flavors are you experimenting with?\n\n[D25:7 | 8:16 pm on 25 October, 2022 | Nate]\nWow Joanna, those drawings are really incredible! What inspired you to create them?\n\n[D28:33 | 5:54 pm on 9 November, 2022 | Nate]\nBye Joanna!",
+    "retrieved_ids": [
+      "D1:2",
+      "D1:9",
+      "D1:11",
+      "D1:13",
+      "D2:22",
+      "D2:24",
+      "D9:2",
+      "D12:10",
+      "D14:21",
+      "D20:5",
+      "D20:7",
+      "D25:7",
+      "D28:33"
+    ],
+    "memory_tokens": 509,
+    "retrieval_latency_ms": 35.65
+  },
+  {
+    "sample_id": "conv-30",
+    "qa_index": 74,
+    "strategy": "recency",
+    "context": "[D18:22 | 5:44 pm on 21 July, 2023 | Jon]\nThanks for having my back.\n\n[D19:3 | 6:46 pm on 23 July, 2023 | Jon]\nHa, ha! Thanks, Gina. Sounds familiar, who do those words belong to?\n\n[D19:4 | 6:46 pm on 23 July, 2023 | Gina]\nIt's Shia Labeouf!\n\n[D19:5 | 6:46 pm on 23 July, 2023 | Jon]\nAhhahha, really!? Yea, that definitely him.\n\n[D19:6 | 6:46 pm on 23 July, 2023 | Gina]\nHah, yeah!) But really having a creative space for dancers is so important. Last Friday at dance class with a group of friends I felt it. Your studio will be a go-to spot for self-expression. Keep up the good work and don't forget your passion for dance.\n\n[D19:7 | 6:46 pm on 23 July, 2023 | Jon]\nThanks, Gina! Your words of encouragement keep me motivated. Can't wait 'til my studio starts welcoming dancers of all ages and backgrounds!\n\n[D19:8 | 6:46 pm on 23 July, 2023 | Gina]\nI'm so happy to see my words motivating you, Jon. <3\n\n[D19:9 | 6:46 pm on 23 July, 2023 | Jon]\nThanks a ton, Gina! Your help and encouragement mean a lot. Your support will help me make it happen.\n\n[D19:10 | 6:46 pm on 23 July, 2023 | Gina]\nYou're welcome, Jon! I'm here to support you. Every step's getting you closer to your dream. Never give up! You're doing great.\n\n[D19:11 | 6:46 pm on 23 July, 2023 | Jon]\nThanks, Gina! I won't quit. I'm gonna keep going, whatever comes my way.\n\n[D19:12 | 6:46 pm on 23 July, 2023 | Gina]\nRemember Jon, Just do it!\n\n[D19:13 | 6:46 pm on 23 July, 2023 | Jon]\nAh ha ha, yeah, JUST DOING IT!\n\n[D19:14 | 6:46 pm on 23 July, 2023 | Gina]\nThat's the spirit! Bye!",
+    "retrieved_ids": [
+      "D18:22",
+      "D19:3",
+      "D19:4",
+      "D19:5",
+      "D19:6",
+      "D19:7",
+      "D19:8",
+      "D19:9",
+      "D19:10",
+      "D19:11",
+      "D19:12",
+      "D19:13",
+      "D19:14"
+    ],
+    "memory_tokens": 509,
+    "retrieval_latency_ms": 24.33
+  },
+  {
+    "sample_id": "conv-47",
+    "qa_index": 23,
+    "strategy": "recency",
+    "context": "[D31:14 | 8:57 pm on 7 November, 2022 | John]\nYou are right! I still haven’t gotten a dog, but I still really want one. What is it like to have a dog?\n\n[D31:15 | 8:57 pm on 7 November, 2022 | James]\nHaving furry friends around brings so much joy and friendship. Life wouldn't be the same without them. Every day's better with them around.\n\n[D31:16 | 8:57 pm on 7 November, 2022 | John]\nYep, they bring so much joy and love. They're always there for us! It's like having sunshine on a cloudy day.\n\n[D31:17 | 8:57 pm on 7 November, 2022 | James]\nMy dogs are like that too - they even make dark days better. Don't know what I'd do without them. They're the best buddies.\n\n[D31:18 | 8:57 pm on 7 November, 2022 | John]\nYeah, dogs are awesome for sure! They make us feel so loved and cheerful, don't they?\n\n[D31:19 | 8:57 pm on 7 November, 2022 | James]\nYeah, they definitely do. Dogs always cheer us up, wagging their tails and giving us unconditional love. It's like having a dose of positivity and happiness every day. They're amazing!\n\n[D31:20 | 8:57 pm on 7 November, 2022 | John]\nDefinitely, James! Dogs are amazing. They bring so much joy and positivity. They accept us without judgement, just love and happiness. I appreciate the daily dose of positivity they bring to my life. Special buddies for sure. By the way, here is my cousin's dog.\n\n[D31:21 | 8:57 pm on 7 November, 2022 | James]\nThis pup is so adorable! What's their name?\n\n[D31:22 | 8:57 pm on 7 November, 2022 | John]\nTheir name is Luna. \n\n[D31:23 | 8:57 pm on 7 November, 2022 | James]\nLuna's a great name!\n\n[D31:24 | 8:57 pm on 7 November, 2022 | John]\nThanks, gonna go, sorry. Cheers! Bye!\n\n[D31:25 | 8:57 pm on 7 November, 2022 | James]\nLater! Take care!",
+    "retrieved_ids": [
+      "D31:14",
+      "D31:15",
+      "D31:16",
+      "D31:17",
+      "D31:18",
+      "D31:19",
+      "D31:20",
+      "D31:21",
+      "D31:22",
+      "D31:23",
+      "D31:24",
+      "D31:25"
+    ],
+    "memory_tokens": 510,
+    "retrieval_latency_ms": 43.58
+  },
+  {
+    "sample_id": "conv-44",
+    "qa_index": 3,
+    "strategy": "bm25",
+    "context": "[D3:1 | 4:19 pm on 16 April, 2023 | Andrew]\nHey Audrey! What's up? Missed chatting with ya! Check it out, my girl & I tried out that new cafe scene in the city last weekend! Super fun but kinda sad not being out in nature - that's when I feel like I'm really thriving. Oh man, I miss the peacefulness of being out on a hike.\n\n[D3:10 | 4:19 pm on 16 April, 2023 | Audrey]\nIt must be tough. City life can get overwhelming, so it's great to find ways to connect to nature. What kind of things do you like to do in the city?\n\n[D3:11 | 4:19 pm on 16 April, 2023 | Andrew]\nMy girlfriend and I love to discover new places to eat around town. It's a great way to try something new and wind down after a long week.\n\n[D3:12 | 4:19 pm on 16 April, 2023 | Audrey]\nWow, that sounds like a great way to explore the city! Trying new places and food is always fun. Have you discovered any new favorite spots recently?\n\n[D7:8 | 11:27 am on 2 June, 2023 | Andrew]\nI'm still on the hunt, but it's tough finding a pet-friendly spot in the city. Been checking out some places, but no luck so far. A bit discouraged but I'm determined to find the right place and dog.\n\n[D17:1 | 12:24 am on 24 August, 2023 | Andrew]\nHey Audrey! What's up? Last weekend my girlfriend and I went fishing in one of the nearby lakes. It was so nice. We got a few fish and had a blast. Have you ever gone fishing before?\n\n[D19:19 | 5:53 pm on 24 September, 2023 | Andrew]\nThose flowers look great! What kind are they?\n\n[D23:21 | 4:22 pm on 13 October, 2023 | Andrew]\nI can tell they're a real source of love for you. It's great to have that kind of inspiration. You know what else inspires me? Somewhere like this\n\n[D26:12 | 2:36 pm on 28 October, 2023 | Andrew]\nAww, they're having such a blast! What kind are they? I'm wishing you and your pups the best. ",
+    "retrieved_ids": [
+      "D3:1",
+      "D3:10",
+      "D3:11",
+      "D3:12",
+      "D7:8",
+      "D17:1",
+      "D19:19",
+      "D23:21",
+      "D26:12"
+    ],
+    "memory_tokens": 505,
+    "retrieval_latency_ms": 40.11
+  },
+  {
+    "sample_id": "conv-48",
+    "qa_index": 148,
+    "strategy": "recency",
+    "context": "[D30:5 | 10:17 am on 20 September, 2023 | Deborah]\nWow, what a view!  How did it make you feel?\n\n[D30:8 | 10:17 am on 20 September, 2023 | Jolene]\nI remember taking a hike with my partner and coming across a waterfall oasis. Everything just felt so peaceful and my worries just disappeared. It was such a refreshing experience.\n\n[D30:9 | 10:17 am on 20 September, 2023 | Deborah]\nAre you planning to experience it again soon?\n\n[D30:10 | 10:17 am on 20 September, 2023 | Jolene]\nYeah! I'm planning to get out in nature again next month. It's going to be great reconnecting with it!\n\n[D30:11 | 10:17 am on 20 September, 2023 | Deborah]\n Enjoy it! This photo made me think of a gorgeous blossom tree from near my home. Every spring, it was magical to watch it bloom.\n\n[D30:12 | 10:17 am on 20 September, 2023 | Jolene]\nThat sounds magical! How was it watching the tree bloom each spring?\n\n[D30:13 | 10:17 am on 20 September, 2023 | Deborah]\nIt was like admiring nature's artwork. It filled me with awe and made me appreciate the beauty of life. Even in tough times, there's hope for growth.\n\n[D30:14 | 10:17 am on 20 September, 2023 | Jolene]\nThis photo I took is a great visual representation of that idea. It reminds me that I can keep growing through any obstacles.\n\n[D30:15 | 10:17 am on 20 September, 2023 | Deborah]\nIt really captures resilience and strength. I love how you find inspiration in the small things.\n\n[D30:16 | 10:17 am on 20 September, 2023 | Jolene]\nThanks, Deborah! Appreciating those small things is important. It helps me remember that even when times are tough, there's always something positive to hang onto.\n\n[D30:17 | 10:17 am on 20 September, 2023 | Deborah]\nIt's a great habit. Thanks for reminding me!\n\n[D30:18 | 10:17 am on 20 September, 2023 | Jolene]\nSure Deb, it's great catching up. Keep on finding those beauties!",
+    "retrieved_ids": [
+      "D30:5",
+      "D30:8",
+      "D30:9",
+      "D30:10",
+      "D30:11",
+      "D30:12",
+      "D30:13",
+      "D30:14",
+      "D30:15",
+      "D30:16",
+      "D30:17",
+      "D30:18"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 41.24
+  },
+  {
+    "sample_id": "conv-44",
+    "qa_index": 3,
+    "strategy": "recency",
+    "context": "[D28:9 | 9:02 am on 22 November, 2023 | Audrey]\nThat's a great name for your pup! Fits their adventurous spirit. What's Scout's first adventure gonna be?\n\n[D28:11 | 9:02 am on 22 November, 2023 | Audrey]\nSounds like a great start for Scout! Start small, and gradually give them more exposure. They'll have a great time, just make sure to keep them leashed.\n\n[D28:12 | 9:02 am on 22 November, 2023 | Andrew]\nYeah, safety first! For now, we're keeping the new addition on a leash while they get used to being outside. That pic you of your dog at the park is so cute. So we got some essentials for their comfort and entertainment, like a bed, toys, and some puppy pads just in case. It's like their own little safe haven.\n\n[D28:13 | 9:02 am on 22 November, 2023 | Audrey]\nWow, that's so great that you two are creating a safe and fun space for Scout. It's really important they have a place that makes them feel secure. Slowly introduce Scout to Toby and Buddy, it takes time for the pups to get used to each other too! Scout is so lucky to have you and your girlfriend! \n\n[D28:14 | 9:02 am on 22 November, 2023 | Andrew]\nThanks! We feel so lucky to have Scout. It's been amazing having so many furry friends! How are your dogs doing now? \n\n[D28:15 | 9:02 am on 22 November, 2023 | Audrey]\nThey're doing great! Exploring, meeting new people...they feel so loved and safe. I'm really glad they're part of my life!\n\n[D28:16 | 9:02 am on 22 November, 2023 | Andrew]\nThat's great to hear! Dogs truly bring so much joy and friendship. I'm glad they're happy with you.\n\n[D28:17 | 9:02 am on 22 November, 2023 | Audrey]\nThanks! They're really awesome and bring so much joy and friendship. I'm so grateful to have them in my life as a part of my family.\n\n[D28:18 | 9:02 am on 22 November, 2023 | Andrew]\nYeah, it's great! Dogs are always there for us. We should count ourselves lucky to have such amazing furry friends as family member.",
+    "retrieved_ids": [
+      "D28:9",
+      "D28:11",
+      "D28:12",
+      "D28:13",
+      "D28:14",
+      "D28:15",
+      "D28:16",
+      "D28:17",
+      "D28:18"
+    ],
+    "memory_tokens": 508,
+    "retrieval_latency_ms": 45.13
+  },
+  {
+    "sample_id": "conv-49",
+    "qa_index": 72,
+    "strategy": "bm25",
+    "context": "[D2:4 | 7:11 pm on 24 May, 2023 | Sam]\nThat sounds great, Evan! It's so important to take time for ourselves and find peace, especially after a hard week. Mine's been tough.\n\n[D5:6 | 7:52 pm on 7 August, 2023 | Sam]\nIt looks like your kids are having a great time! And how long have you been prioritizing your health?\n\n[D10:1 | 9:28 am on 11 September, 2023 | Evan]\nHey Sam! Long time no talk! Hope all is good. What have I been doing these past few weeks?\n\n[D11:1 | 8:57 pm on 6 October, 2023 | Sam]\nHey Evan, long time no see! I've started eating healthier - what's new with you? Picked up any new hobbies?\n\n[D17:1 | 7:30 pm on 21 November, 2023 | Sam]\nHey Ev! Long time no chat. How's it going? Hope all is well.\n\n[D20:1 | 6:48 pm on 17 December, 2023 | Evan]\nHey Sam, what's up? Long time no see, huh? Lots has happened.\n\n[D20:2 | 6:48 pm on 17 December, 2023 | Sam]\nHey Evan! Long time no see. I'm doing okay, been through a few bumps. How about you?\n\n[D21:1 | 4:25 pm on 26 December, 2023 | Sam]\nHey Evan! Long time no see, how's it going?\n\n[D21:2 | 4:25 pm on 26 December, 2023 | Evan]\nHey Sam! Long time no see! Been up and down lately, got married last week - how about you?\n\n[D21:15 | 4:25 pm on 26 December, 2023 | Sam]\nThat's stunning! What emotions did you create this painting with?\n\n[D22:3 | 11:00 am on 31 December, 2023 | Sam]\nOh no, were you guys okay after the accident?\n\n[D22:11 | 11:00 am on 31 December, 2023 | Sam]\nThey look healthy and delicious! Perfect for after a hike or, I guess, post-accident recovery, huh?",
+    "retrieved_ids": [
+      "D2:4",
+      "D5:6",
+      "D10:1",
+      "D11:1",
+      "D17:1",
+      "D20:1",
+      "D20:2",
+      "D21:1",
+      "D21:2",
+      "D21:15",
+      "D22:3",
+      "D22:11"
+    ],
+    "memory_tokens": 491,
+    "retrieval_latency_ms": 29.08
+  },
+  {
+    "sample_id": "conv-26",
+    "qa_index": 104,
+    "strategy": "recency",
+    "context": "[D19:6 | 9:55 am on 22 October, 2023 | Melanie]\nI totally agree, Caroline. Everyone deserves that. It's awesome to see how passionate you are about helping these kids.\n\n[D19:7 | 9:55 am on 22 October, 2023 | Caroline]\nThanks, Mel. Finding self-acceptance was a long process, but now I'm ready to offer love and support to those who need it. It's empowering to make a positive difference in someone's life.\n\n[D19:8 | 9:55 am on 22 October, 2023 | Melanie]\nThat must have been tough for you, Caroline. Respect for finding acceptance and helping others with what you've been through. You're so strong and inspiring.\n\n[D19:9 | 9:55 am on 22 October, 2023 | Caroline]\nThanks, Melanie. Transitioning wasn't easy and acceptance wasn't either, but the help I got from friends, family and people I looked up to was invaluable. They boosted me through tough times and helped me find out who I really am. That's why I want to pass that same support to anyone who needs it. Bringing others comfort and helping them grow brings me such joy.\n\n[D19:10 | 9:55 am on 22 October, 2023 | Melanie]\nI'm so happy for you, Caroline. You found your true self and now you're helping others. You're so inspiring!\n\n[D19:11 | 9:55 am on 22 October, 2023 | Caroline]\nThanks, Melanie. Your support really means a lot. This journey has been amazing and I'm grateful I get to share it and help others with theirs. It's a real gift.\n\n[D19:12 | 9:55 am on 22 October, 2023 | Melanie]\nAbsolutely! I'm so glad we can always be there for each other.\n\n[D19:13 | 9:55 am on 22 October, 2023 | Caroline]\nGlad you agree, Caroline. Appreciate the support of those close to me. Their encouragement made me who I am.\n\n[D19:14 | 9:55 am on 22 October, 2023 | Melanie]\nGlad you had support. Being yourself is great!\n\n[D19:15 | 9:55 am on 22 October, 2023 | Caroline]\nYeah, that's true! It's so freeing to just be yourself and live honestly. We can really accept who we are and be content.",
+    "retrieved_ids": [
+      "D19:6",
+      "D19:7",
+      "D19:8",
+      "D19:9",
+      "D19:10",
+      "D19:11",
+      "D19:12",
+      "D19:13",
+      "D19:14",
+      "D19:15"
+    ],
+    "memory_tokens": 508,
+    "retrieval_latency_ms": 25.11
+  },
+  {
+    "sample_id": "conv-42",
+    "qa_index": 93,
+    "strategy": "recency",
+    "context": "[D28:33 | 5:54 pm on 9 November, 2022 | Nate]\nBye Joanna!\n\n[D29:6 | 12:06 am on 11 November, 2022 | Nate]\nWow Joanna, that must have been so exciting! It's incredible when you get those moments of joy. Anyway, I took my turtles to the beach in Tampa yesterday! They always bring me peace in the craziness of life.\n\n[D29:7 | 12:06 am on 11 November, 2022 | Joanna]\nWoah, that's awesome, Nate! You must really enjoy having them around - they're so cool! What do you love most about having them?\n\n[D29:8 | 12:06 am on 11 November, 2022 | Nate]\nYour completely right! I really love having them around. They're so cool and they make me feel calm. Plus, they don't require much looking after, which is great. I love seeing them soaking in the sun like this.\n\n[D29:9 | 12:06 am on 11 November, 2022 | Joanna]\nThat's awesome, Nate! They look so serene and happy. It's great to have something like that.\n\n[D29:10 | 12:06 am on 11 November, 2022 | Nate]\nYeah, turtles are like zen masters! They always remind me to slow down and appreciate the small things in life. I'm loving experimenting with flavors right now. Here are some colorful bowls of coconut milk ice cream that I made.\n\n[D29:11 | 12:06 am on 11 November, 2022 | Joanna]\nHey Nate, that looks really yummy! The colors and mix-ins give it a nice kick.\n\n[D29:12 | 12:06 am on 11 November, 2022 | Nate]\nNice! I'm glad you like it too. This recipe really jazzes it up. Wanna give it a try?\n\n[D29:13 | 12:06 am on 11 November, 2022 | Joanna]\nDefinitely, Nate! That ice cream looks mouthwatering. Thanks so much for offering!\n\n[D29:14 | 12:06 am on 11 November, 2022 | Nate]\nNo worries, Joanna. Hope you enjoy it!\n\n[D29:15 | 12:06 am on 11 November, 2022 | Joanna]\nYea, no worries! It was great catching up. Take it easy!",
+    "retrieved_ids": [
+      "D28:33",
+      "D29:6",
+      "D29:7",
+      "D29:8",
+      "D29:9",
+      "D29:10",
+      "D29:11",
+      "D29:12",
+      "D29:13",
+      "D29:14",
+      "D29:15"
+    ],
+    "memory_tokens": 503,
+    "retrieval_latency_ms": 37.98
+  },
+  {
+    "sample_id": "conv-49",
+    "qa_index": 72,
+    "strategy": "semantic",
+    "context": "[D3:1 | 3:55 pm on 6 June, 2023 | Evan]\nHey Sam! Long time no talk! How're you doing? Life's been quite the rollercoaster lately. I had a health scare last week – a sudden heart palpitation incident that really shook me up. It's been a serious wake-up call about my lifestyle.\n\n[D6:1 | 4:09 pm on 13 August, 2023 | Evan]\nHey Sam, long time no talk! Hope you're doing great. I just got back from a rad vacay with my new SO in Canada. Tried some awesome activities too - think hiking, biking... all that cool stuff. We loved exploring the outdoors together, it was so awesome!\n\n[D10:1 | 9:28 am on 11 September, 2023 | Evan]\nHey Sam! Long time no talk! Hope all is good. What have I been doing these past few weeks?\n\n[D11:1 | 8:57 pm on 6 October, 2023 | Sam]\nHey Evan, long time no see! I've started eating healthier - what's new with you? Picked up any new hobbies?\n\n[D11:2 | 8:57 pm on 6 October, 2023 | Evan]\nHey Sam! That's awesome about your healthier eating! For me, I had a setback last week - messed up my knee playing b-ball with the kids. It's been tough to stay active since. I really miss going on adventures like we did last year - good times with the family!\n\n[D11:5 | 8:57 pm on 6 October, 2023 | Sam]\nGlad PT is helping, Evan! Taking care of yourself is key – have you explored any fun indoor activities or hobbies?\n\n[D20:1 | 6:48 pm on 17 December, 2023 | Evan]\nHey Sam, what's up? Long time no see, huh? Lots has happened.\n\n[D20:6 | 6:48 pm on 17 December, 2023 | Sam]\nI used to love hiking, but it's been a while since I had the chance to do it.\n\n[D21:1 | 4:25 pm on 26 December, 2023 | Sam]\nHey Evan! Long time no see, how's it going?\n\n[D24:4 | 12:17 am on 10 January, 2024 | Sam]\nWhat's up with that incident? All good now?",
+    "retrieved_ids": [
+      "D3:1",
+      "D6:1",
+      "D10:1",
+      "D11:1",
+      "D11:2",
+      "D11:5",
+      "D20:1",
+      "D20:6",
+      "D21:1",
+      "D24:4"
+    ],
+    "memory_tokens": 510,
+    "retrieval_latency_ms": 239.36
+  },
+  {
+    "sample_id": "conv-26",
+    "qa_index": 104,
+    "strategy": "bm25",
+    "context": "[D1:4 | 1:56 pm on 8 May, 2023 | Melanie]\nWow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?\n\n[D6:9 | 8:18 pm on 6 July, 2023 | Caroline]\nI've got lots of kids' books- classics, stories from different cultures, educational books, all of that. What's a favorite book you remember from your childhood?\n\n[D7:8 | 4:33 pm on 12 July, 2023 | Melanie]\nCaroline, so glad you got the support! Your experience really brought you to where you need to be. You're gonna make a huge difference! This book I read last year reminds me to always pursue my dreams, just like you are doing!🌟\n\n[D7:11 | 4:33 pm on 12 July, 2023 | Caroline]\nI loved \"Becoming Nicole\" by Amy Ellis Nutt. It's a real inspiring true story about a trans girl and her family. It made me feel connected and gave me a lot of hope for my own path. Highly recommend it for sure!\n\n[D7:12 | 4:33 pm on 12 July, 2023 | Melanie]\nThat sounds awesome! What did you take away from it to use in your life?\n\n[D8:20 | 1:51 pm on 15 July, 2023 | Melanie]\nWow, what an experience! How did it make you feel?\n\n[D8:22 | 1:51 pm on 15 July, 2023 | Melanie]\nWow, Caroline! That's huge! How did it feel to be around so much love and acceptance?\n\n[D10:15 | 8:56 pm on 20 July, 2023 | Caroline]\nCool! What did it look like?\n\n[D14:3 | 1:33 pm on 25 August, 2023 | Caroline]\nThanks, Melanie! That plate is awesome! Did you make it?\n\n[D15:13 | 3:19 pm on 28 August, 2023 | Caroline]\nWow! Did you see that band?\n\n[D17:10 | 10:31 am on 13 October, 2023 | Melanie]\nThanks, Caroline. It was tough, but I'm doing ok. Been reading that book you recommended a while ago and painting to keep busy.",
+    "retrieved_ids": [
+      "D1:4",
+      "D6:9",
+      "D7:8",
+      "D7:11",
+      "D7:12",
+      "D8:20",
+      "D8:22",
+      "D10:15",
+      "D14:3",
+      "D15:13",
+      "D17:10"
+    ],
+    "memory_tokens": 494,
+    "retrieval_latency_ms": 26.74
+  },
+  {
+    "sample_id": "conv-43",
+    "qa_index": 140,
+    "strategy": "semantic",
+    "context": "[D6:13 | 1:08 pm on 11 August, 2023 | John]\nThanks! Basketball has been a part of my life ever since I was a kid. I'd watch NBA games with my dad and dream of playing on those big courts. When I turned ten, dad signed me up for a local league, and I've been playing ever since. I kept playing through middle and high school before earning a college scholarship. And after college, I was drafted by a team – my dream come true!\n\n[D16:6 | 11:41 am on 6 November, 2023 | John]\nYeah, last year I had a basketball game where we were trailing big time in the 4th quarter. We had to dig deep and keep on pushing to overturn the deficit and it was amazing when that final buzzer sounded. Unforgettable feeling.\n\n[D16:10 | 11:41 am on 6 November, 2023 | John]\nRemember that epic block in Game 7 of the '16 Finals? He chased down Iguodala and pinned the ball against the backboard. That kind of determination and heart is why I love basketball.\n\n[D19:6 | 10:22 am on 21 November, 2023 | John]\nLast season, I had a major challenge when I hurt my ankle. It required some time off and physical therapy. It was frustrating because I couldn't play or help the team. I stayed focused on my recovery and worked hard to strengthen my body. It was a tough mental and physical challenge, but it made me realize the importance of patience and perseverance. I'm grateful that I was able to overcome it.\n\n[D19:10 | 10:22 am on 21 November, 2023 | John]\nI faced some tough times while playing basketball. I messed up during a big game, and it was really hard to accept. Instead of getting stuck in that moment, I worked hard to get better. It taught me that resilience is key and owning up to mistakes is important. Gotta keep growing and striving to be a strong player and teammate. So grateful.\n\n[D23:7 | 8:28 pm on 11 December, 2023 | John]\nI've had some thrilling games in my career. My favorite was when we were down 10 in the 4th and I hit the buzzer-beater shot to win. The atmosphere was incredible and it was such a thrilling experience. Those moments make me love basketball so much.",
+    "retrieved_ids": [
+      "D6:13",
+      "D16:6",
+      "D16:10",
+      "D19:6",
+      "D19:10",
+      "D23:7"
+    ],
+    "memory_tokens": 509,
+    "retrieval_latency_ms": 246.22
+  },
+  {
+    "sample_id": "conv-30",
+    "qa_index": 74,
+    "strategy": "bm25",
+    "context": "[D1:24 | 4:04 pm on 20 January, 2023 | Jon]\nThanks! I rehearsed with a small group of dancers after work. We do all kinds of dances, from contemporary to hip-hop. We've got some cool projects in the works. Finishing up choreography to perform at a nearby festival next month. Can't wait!\n\n[D9:1 | 10:33 am on 9 April, 2023 | Jon]\nHey Gina! I'm turning my loves of dance into a business. I'm sunk tons of time into the studio lately, and look at my students - they're already killing it. I'm even learning with them!\n\n[D12:4 | 7:18 pm on 27 May, 2023 | Jon]\nWay to go, Gina! You really stepped up. What's your plan for the future?\n\n[D13:5 | 8:29 pm on 13 June, 2023 | Jon]\nThanks, Gina! It's been so inspiring to work with our young dancers, seeing their passion and commitment. Opening the dance studio's been a great experience - I want it to be a place of support and encouragement for all our dancers. Will you show me this presentation?\n\n[D15:3 | 10:04 am on 19 June, 2023 | Jon]\nThanks, Gina. Still working on opening a dance studio.\n\n[D15:4 | 10:04 am on 19 June, 2023 | Gina]\nWhen are you opening the studio?\n\n[D15:13 | 10:04 am on 19 June, 2023 | Jon]\nYeah! Let's make some awesome memories tomorrow at the grand opening!\n\n[D15:18 | 10:04 am on 19 June, 2023 | Gina]\nCan't wait for tomorrow's grand opening!\n\n[D17:7 | 1:25 pm on 9 July, 2023 | Gina]\nWow, Jon! That's awesome. Loving what you do and bringing joy to others is so rewarding. You're definitely the perfect mentor & guide. Your positivity and determination will make your dance studio a hit!\n\n[D17:20 | 1:25 pm on 9 July, 2023 | Jon]\nBye!\n\n[D18:10 | 5:44 pm on 21 July, 2023 | Jon]\nTaking your advice, I'm sprucing up my biz plan and tweaking my pitch to investors. I'm also working on an online platform to show off the dance studio's stuff.",
+    "retrieved_ids": [
+      "D1:24",
+      "D9:1",
+      "D12:4",
+      "D13:5",
+      "D15:3",
+      "D15:4",
+      "D15:13",
+      "D15:18",
+      "D17:7",
+      "D17:20",
+      "D18:10"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 22.29
+  },
+  {
+    "sample_id": "conv-50",
+    "qa_index": 154,
+    "strategy": "semantic",
+    "context": "[D1:15 | 11:53 am on 23 March, 2023 | Calvin]\nI'm gonna be in Japan for a few months then off to Boston! I can't wait!\n\n[D3:4 | 4:15 pm on 20 April, 2023 | Dave]\nWow, Calvin, sounds great! What did you learn from it?\n\n[D3:11 | 4:15 pm on 20 April, 2023 | Calvin]\nWow, Boston looks great! Thanks for the tips. And, awesome pic!\n\n[D7:15 | 6:06 pm on 31 May, 2023 | Calvin]\nCool, can't wait for the tour with Frank! I'm buzzing to perform in Boston and see what it's like. Gonna be great playing for folks from home. What do you think of the music scene there?\n\n[D7:18 | 6:06 pm on 31 May, 2023 | Dave]\nGreat, Calvin! Have a great time in Boston. Can't wait to hear all about it when you get back!\n\n[D17:8 | 9:19 am on 2 September, 2023 | Calvin]\nYeah, for sure! I'll let you know when I'm in Boston. See you soon!\n\n[D26:1 | 8:25 pm on 25 October, 2023 | Calvin]\nHey Dave! Long time no talk! I had a great time yesterday, and visited some sights in Boston with a high school friend. It was really fun and eye-opening.\n\n[D26:2 | 8:25 pm on 25 October, 2023 | Dave]\nHey Calvin! Good to hear from you! Sounds like you had a blast in Boston - so much to do there! One of my favorites there is great for chilling and admiring nature. BTW, something cool I wanted to tell you about - I recently attended a conference in Detroit - it was so cool, I learned a lot.\n\n[D26:3 | 8:25 pm on 25 October, 2023 | Calvin]\nI had a wonderful experience during my time in Boston. It had awesome architecture and a really cool history. I followed your advice and went there, it was so peaceful. Good to hear that you've learned a lot of new things at the conference in Detroit!\n\n[D30:22 | 10:54 am on 17 November, 2023 | Calvin]\nThanks, Dave! I'll catch you when I'm in Boston. Cheers!",
+    "retrieved_ids": [
+      "D1:15",
+      "D3:4",
+      "D3:11",
+      "D7:15",
+      "D7:18",
+      "D17:8",
+      "D26:1",
+      "D26:2",
+      "D26:3",
+      "D30:22"
+    ],
+    "memory_tokens": 508,
+    "retrieval_latency_ms": 293.53
+  },
+  {
+    "sample_id": "conv-42",
+    "qa_index": 93,
+    "strategy": "bm25",
+    "context": "[D1:3 | 7:31 pm on 21 January, 2022 | Nate]\nHey Joanna! That's cool! I won my first video game tournament last week - so exciting!\n\n[D1:4 | 7:31 pm on 21 January, 2022 | Joanna]\nWow Nate! Congrats on winning! Tell me more - what game was it?\n\n[D10:4 | 11:54 am on 2 May, 2022 | Nate]\nGaming has been my focus - practicing a lot and even winning a few tournaments. Last week I won my second tournament!\n\n[D14:8 | 5:44 pm on 3 June, 2022 | Nate]\nI've been doing great - I just won another regional video game tournament last week! It was so cool, plus I met some new people. Connecting with fellow gamers is always awesome.\n\n[D17:1 | 2:34 pm on 10 July, 2022 | Nate]\nHey Joanna, check this out! I won my fourth video game tournament on Friday! It was awesome competing and showing off my skills - and the victory was indescribable. I'm really proud that I can make money doing what I love. This one was online!\n\n[D22:2 | 11:15 am on 6 October, 2022 | Nate]\nHey Joanna! That tart looks yummy! Lately, I've been doing great - I won a really big video game tournament last week and it was awesome! I still can't believe I made so much money from it.\n\n[D27:1 | 8:10 pm on 7 November, 2022 | Nate]\nHey Joanna! Hope you’re doing alright. Crazy thing happened - I was in the final of a big Valorant tournament last Saturday, and I won! It was the best feeling to see my name as the champion. Tournaments really bring out strong emotions in me.\n\n[D28:1 | 5:54 pm on 9 November, 2022 | Nate]\nHey Joanna, what a wild week! My game tournament got pushed back, so I tried out some cooking. Look at this homemade coconut ice cream! The sprinkles kinda changed the color this time around.\n\n[D28:2 | 5:54 pm on 9 November, 2022 | Joanna]\nHey Nate, that looks yummy! Wish I could try it, but I can't right now. How did the last game tournament go?",
+    "retrieved_ids": [
+      "D1:3",
+      "D1:4",
+      "D10:4",
+      "D14:8",
+      "D17:1",
+      "D22:2",
+      "D27:1",
+      "D28:1",
+      "D28:2"
+    ],
+    "memory_tokens": 502,
+    "retrieval_latency_ms": 37.45
+  },
+  {
+    "sample_id": "conv-47",
+    "qa_index": 138,
+    "strategy": "semantic",
+    "context": "[D1:20 | 3:47 pm on 17 March, 2022 | James]\nI'm working on something I've wanted to do since I was a kid. Even as a child, I made some sketches of the main character. Back then I was just drawing comics, but now I want to turn it into a computer game. It's a project that has me really excited.\n\n[D1:21 | 3:47 pm on 17 March, 2022 | John]\nWow, James! That's amazing. What made you decide to work on it and create your own game?\n\n[D1:22 | 3:47 pm on 17 March, 2022 | James]\nI'm always excited to combine my favorite passions: gaming and storytelling. It's great creating my own project and bringing my ideas to life, plus the challenge is really enjoyable!\n\n[D22:4 | 6:53 pm on 1 September, 2022 | John]\nThis game looks great! What inspired you to create it?\n\n[D22:5 | 6:53 pm on 1 September, 2022 | James]\nI've always loved playing strategy games like Civilization and Total War, so I decided to challenge myself and create one of my own.\n\n[D26:4 | 9:20 am on 3 October, 2022 | James]\nWow, John! Mentoring programmers to make games sounds awesome! You must love it. How do you feel about starting this journey?\n\n[D27:3 | 2:14 pm on 13 October, 2022 | John]\nCongrats on releasing your game, James! Was it fulfilling to see players engage with the game world you created?\n\n[D27:6 | 2:14 pm on 13 October, 2022 | James]\nPlaying video games was always great, but creating my own game was really special. Witcher 3 gave me a ton of inspiration, with its amazing world and story. Plus, it pushed me to create something cool.\n\n[D28:26 | 7:36 pm on 21 October, 2022 | John]\nWow, James! Those games really sparked your passion for gaming, didn't they?\n\n[D31:5 | 8:57 pm on 7 November, 2022 | James]\n I can imagine how proud you must feel seeing your ideas come to life in a game. Has it been released for others to try yet?",
+    "retrieved_ids": [
+      "D1:20",
+      "D1:21",
+      "D1:22",
+      "D22:4",
+      "D22:5",
+      "D26:4",
+      "D27:3",
+      "D27:6",
+      "D28:26",
+      "D31:5"
+    ],
+    "memory_tokens": 495,
+    "retrieval_latency_ms": 282.39
+  },
+  {
+    "sample_id": "conv-43",
+    "qa_index": 44,
+    "strategy": "recency",
+    "context": "[D29:6 | 1:41 pm on 12 January, 2024 | John]\nThanks! It felt crazy. It's not just about the signing, but it's about feeling like all the hard work paid off - like all those training hours weren't for nothing.\n\n[D29:7 | 1:41 pm on 12 January, 2024 | Tim]\nWow! I bet you were thrilled when everything finally worked out. That sense of accomplishment is awesome and really boosts your self-esteem. I can imagine all the hard work you put into it was definitely worth it.\n\n[D29:8 | 1:41 pm on 12 January, 2024 | John]\nYeah, it's great when you reach a goal and it feels rewarding. It's a reminder that you're going in the right direction, and all the hard work was worth it. What's something you feel proud of recently?\n\n[D29:9 | 1:41 pm on 12 January, 2024 | Tim]\nI'm proud of researching visa requirements for countries I want to visit. It feels like taking initiative is a step towards making my travel dreams a reality!\n\n[D29:10 | 1:41 pm on 12 January, 2024 | John]\nGreat going! Taking initiative is a must if you wanna achieve your goals. I'm excited to hear about all your future adventures!\n\n[D29:11 | 1:41 pm on 12 January, 2024 | Tim]\nThanks! I'll keep you in the loop about my travels. Is there anywhere you recommend visiting?\n\n[D29:12 | 1:41 pm on 12 January, 2024 | John]\nBarcelona is a must-visit city! You'll love exploring the culture, admiring the architecture, and tasting the amazing food in each neighborhood. Plus, the nearby beaches are great for soaking up the sun. Definitely add it to your travel list!\n\n[D29:13 | 1:41 pm on 12 January, 2024 | Tim]\nBarcelona sounds awesome! I've heard so many great things. Definitely adding it to my list. Thanks!\n\n[D29:14 | 1:41 pm on 12 January, 2024 | John]\nNo problem! Glad you liked the suggestion. Let me know if you have any other questions or need help with anything.\n\n[D29:15 | 1:41 pm on 12 January, 2024 | Tim]\nCheers! I owe you one. Let me know if you need anything. Bye!",
+    "retrieved_ids": [
+      "D29:6",
+      "D29:7",
+      "D29:8",
+      "D29:9",
+      "D29:10",
+      "D29:11",
+      "D29:12",
+      "D29:13",
+      "D29:14",
+      "D29:15"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 41.14
+  },
+  {
+    "sample_id": "conv-26",
+    "qa_index": 62,
+    "strategy": "recency",
+    "context": "[D19:6 | 9:55 am on 22 October, 2023 | Melanie]\nI totally agree, Caroline. Everyone deserves that. It's awesome to see how passionate you are about helping these kids.\n\n[D19:7 | 9:55 am on 22 October, 2023 | Caroline]\nThanks, Mel. Finding self-acceptance was a long process, but now I'm ready to offer love and support to those who need it. It's empowering to make a positive difference in someone's life.\n\n[D19:8 | 9:55 am on 22 October, 2023 | Melanie]\nThat must have been tough for you, Caroline. Respect for finding acceptance and helping others with what you've been through. You're so strong and inspiring.\n\n[D19:9 | 9:55 am on 22 October, 2023 | Caroline]\nThanks, Melanie. Transitioning wasn't easy and acceptance wasn't either, but the help I got from friends, family and people I looked up to was invaluable. They boosted me through tough times and helped me find out who I really am. That's why I want to pass that same support to anyone who needs it. Bringing others comfort and helping them grow brings me such joy.\n\n[D19:10 | 9:55 am on 22 October, 2023 | Melanie]\nI'm so happy for you, Caroline. You found your true self and now you're helping others. You're so inspiring!\n\n[D19:11 | 9:55 am on 22 October, 2023 | Caroline]\nThanks, Melanie. Your support really means a lot. This journey has been amazing and I'm grateful I get to share it and help others with theirs. It's a real gift.\n\n[D19:12 | 9:55 am on 22 October, 2023 | Melanie]\nAbsolutely! I'm so glad we can always be there for each other.\n\n[D19:13 | 9:55 am on 22 October, 2023 | Caroline]\nGlad you agree, Caroline. Appreciate the support of those close to me. Their encouragement made me who I am.\n\n[D19:14 | 9:55 am on 22 October, 2023 | Melanie]\nGlad you had support. Being yourself is great!\n\n[D19:15 | 9:55 am on 22 October, 2023 | Caroline]\nYeah, that's true! It's so freeing to just be yourself and live honestly. We can really accept who we are and be content.",
+    "retrieved_ids": [
+      "D19:6",
+      "D19:7",
+      "D19:8",
+      "D19:9",
+      "D19:10",
+      "D19:11",
+      "D19:12",
+      "D19:13",
+      "D19:14",
+      "D19:15"
+    ],
+    "memory_tokens": 508,
+    "retrieval_latency_ms": 27.76
+  },
+  {
+    "sample_id": "conv-48",
+    "qa_index": 80,
+    "strategy": "semantic",
+    "context": "[D6:11 | 4:12 pm on 22 February, 2023 | Jolene]\nWow, that's great! Is yoga on the beach a thing? I've been wanting to try it.\n\n[D10:18 | 5:35 pm on 22 March, 2023 | Jolene]\nThis gets me thinking of when I'll learn to surf. Gotta find that spare time!\n\n[D10:19 | 5:35 pm on 22 March, 2023 | Deborah]\nSurfing, huh Jolene? Chase your dreams, don't be daunted. Have you thought about the steps you can take?\n\n[D10:20 | 5:35 pm on 22 March, 2023 | Jolene]\nDefinitely! I've been gathering information, watching videos, and I even got a beginners' guide to surfing. Just need to find the right time and place to get a lesson.\n\n[D10:22 | 5:35 pm on 22 March, 2023 | Jolene]\nThanks for the support! Those got me pumped to try surfing. Gonna keep pushing myself to make it happen.\n\n[D13:15 | 3:56 pm on 6 June, 2023 | Jolene]\nYeah, I`m trying to do it. Here's an example of how I spent yesterday morning, yoga on top of mount Talkeetna.\n\n[D15:26 | 7:37 pm on 9 July, 2023 | Jolene]\nLooks like they're having a blast! How often do you take them out?\n\n[D20:5 | 9:11 am on 21 August, 2023 | Jolene]\nDo you think she would like it?\n\n[D23:5 | 11:46 am on 30 August, 2023 | Jolene]\nWhat was it like?\n\n[D28:10 | 3:09 pm on 15 September, 2023 | Jolene]\nWow, what a gorgeous pic! Do you have any special memories of that beach or just love surfing in general?\n\n[D29:24 | 1:24 pm on 17 September, 2023 | Jolene]\nSounds nice, Deb! A cozy nook is a must! The beach is a great place for finding peace and relaxation. Have you ever tried surfing?\n\n[D29:26 | 1:24 pm on 17 September, 2023 | Jolene]\nHow cool! But I never decided to try it.",
+    "retrieved_ids": [
+      "D6:11",
+      "D10:18",
+      "D10:19",
+      "D10:20",
+      "D10:22",
+      "D13:15",
+      "D15:26",
+      "D20:5",
+      "D23:5",
+      "D28:10",
+      "D29:24",
+      "D29:26"
+    ],
+    "memory_tokens": 506,
+    "retrieval_latency_ms": 236.01
+  },
+  {
+    "sample_id": "conv-43",
+    "qa_index": 44,
+    "strategy": "bm25",
+    "context": "[D7:7 | 7:54 pm on 17 August, 2023 | John]\nYou're a real bookworm! It would be awesome to go to a book conference with you. Check out this photo of what my teammates gave me when we met. It's a sign of our friendship and all the love we have for each other.\n\n[D12:20 | 3:00 pm on 2 October, 2023 | John]\nThanks! The Wolves are my team for sure. And LeBron is the man - love his skills and leadership.\n\n[D12:22 | 3:00 pm on 2 October, 2023 | John]\nI really admire his work ethic and dedication to the game, such an inspiration.\n\n[D16:14 | 11:41 am on 6 November, 2023 | John]\nSpeaking of special moments, my wife and I just left for our European vacation! It will be short but sweet. You've been before, any recommendations?\n\n[D17:3 | 3:36 pm on 11 November, 2023 | John]\nMy wife and I were road tripping out on the European coastline, and it was amazing! The views were spectacular, and we had lots of fun bonding and creating amazing memories. It was such a nice change to my regular life.\n\n[D19:4 | 10:22 am on 21 November, 2023 | John]\nSorry to hear about the setback with your story. I understand how frustrating it can be when things don't go as planned. When I face challenges on the court, I try to reflect on what went wrong and find ways to improve. Maybe you can try doing the same with your storytelling.\n\n[D20:35 | 9:52 am on 1 December, 2023 | Tim]\nLooks great! Where did you go camping?\n\n[D26:2 | 3:35 pm on 26 December, 2023 | Tim]\nHey John! Sounds awesome! Congrats on how far you've come. How did it go?\n\n[D27:28 | 5:26 pm on 2 January, 2024 | John]\nYeah. His journey is really inspiring. I have a painting in my room to remind me to stay true and be a leader in everything I do.\n\n[D28:11 | 5:24 pm on 7 January, 2024 | Tim]\nWow! How did the game go?",
+    "retrieved_ids": [
+      "D7:7",
+      "D12:20",
+      "D12:22",
+      "D16:14",
+      "D17:3",
+      "D19:4",
+      "D20:35",
+      "D26:2",
+      "D27:28",
+      "D28:11"
+    ],
+    "memory_tokens": 497,
+    "retrieval_latency_ms": 37.78
+  },
+  {
+    "sample_id": "conv-49",
+    "qa_index": 112,
+    "strategy": "bm25",
+    "context": "[D6:16 | 4:09 pm on 13 August, 2023 | Sam]\nThanks for the suggestion, Evan. I'll look into it. This journey feels endless at times, but I'm convinced it's going to be rewarding in the end. So good luck with your keys, Evan!\n\n[D10:9 | 9:28 am on 11 September, 2023 | Evan]\nHey Sam, painting is super chill for calming down. Wanna give it a try? I can help you get started and recommend some supplies if you're interested. Let me know!\n\n[D11:2 | 8:57 pm on 6 October, 2023 | Evan]\nHey Sam! That's awesome about your healthier eating! For me, I had a setback last week - messed up my knee playing b-ball with the kids. It's been tough to stay active since. I really miss going on adventures like we did last year - good times with the family!\n\n[D11:3 | 8:57 pm on 6 October, 2023 | Sam]\nHey Evan, sorry to hear about your knee. It must be tough. Are there any ways to stay active while you heal up?\n\n[D14:5 | 1:50 pm on 17 October, 2023 | Sam]\nYeah, that sounds like a good idea. Having goals and someone to exercise with might help. I'll give it a try!\n\n[D18:9 | 8:16 pm on 5 December, 2023 | Evan]\nI think I will. Thanks for the suggestion, Sam.\n\n[D21:15 | 4:25 pm on 26 December, 2023 | Sam]\nThat's stunning! What emotions did you create this painting with?\n\n[D21:20 | 4:25 pm on 26 December, 2023 | Evan]\nThanks, Sam! Glad I could motivate you. If you ever want to give it a go, I'm happy to help get you started. Speaking of which, you know what? I lost my keys again, it's become a weekly ritual for me!\n\n[D22:19 | 11:00 am on 31 December, 2023 | Sam]\nThanks, Evan! I'll give these a try. They look yum. Your help means a lot to me. Btw you know what? I went to the store again and, unsurprisingly, had issues with the self-checkout. It's becoming a regular annoyance.",
+    "retrieved_ids": [
+      "D6:16",
+      "D10:9",
+      "D11:2",
+      "D11:3",
+      "D14:5",
+      "D18:9",
+      "D21:15",
+      "D21:20",
+      "D22:19"
+    ],
+    "memory_tokens": 500,
+    "retrieval_latency_ms": 30.08
+  },
+  {
+    "sample_id": "conv-42",
+    "qa_index": 5,
+    "strategy": "recency",
+    "context": "[D28:33 | 5:54 pm on 9 November, 2022 | Nate]\nBye Joanna!\n\n[D29:6 | 12:06 am on 11 November, 2022 | Nate]\nWow Joanna, that must have been so exciting! It's incredible when you get those moments of joy. Anyway, I took my turtles to the beach in Tampa yesterday! They always bring me peace in the craziness of life.\n\n[D29:7 | 12:06 am on 11 November, 2022 | Joanna]\nWoah, that's awesome, Nate! You must really enjoy having them around - they're so cool! What do you love most about having them?\n\n[D29:8 | 12:06 am on 11 November, 2022 | Nate]\nYour completely right! I really love having them around. They're so cool and they make me feel calm. Plus, they don't require much looking after, which is great. I love seeing them soaking in the sun like this.\n\n[D29:9 | 12:06 am on 11 November, 2022 | Joanna]\nThat's awesome, Nate! They look so serene and happy. It's great to have something like that.\n\n[D29:10 | 12:06 am on 11 November, 2022 | Nate]\nYeah, turtles are like zen masters! They always remind me to slow down and appreciate the small things in life. I'm loving experimenting with flavors right now. Here are some colorful bowls of coconut milk ice cream that I made.\n\n[D29:11 | 12:06 am on 11 November, 2022 | Joanna]\nHey Nate, that looks really yummy! The colors and mix-ins give it a nice kick.\n\n[D29:12 | 12:06 am on 11 November, 2022 | Nate]\nNice! I'm glad you like it too. This recipe really jazzes it up. Wanna give it a try?\n\n[D29:13 | 12:06 am on 11 November, 2022 | Joanna]\nDefinitely, Nate! That ice cream looks mouthwatering. Thanks so much for offering!\n\n[D29:14 | 12:06 am on 11 November, 2022 | Nate]\nNo worries, Joanna. Hope you enjoy it!\n\n[D29:15 | 12:06 am on 11 November, 2022 | Joanna]\nYea, no worries! It was great catching up. Take it easy!",
+    "retrieved_ids": [
+      "D28:33",
+      "D29:6",
+      "D29:7",
+      "D29:8",
+      "D29:9",
+      "D29:10",
+      "D29:11",
+      "D29:12",
+      "D29:13",
+      "D29:14",
+      "D29:15"
+    ],
+    "memory_tokens": 503,
+    "retrieval_latency_ms": 37.34
+  },
+  {
+    "sample_id": "conv-43",
+    "qa_index": 140,
+    "strategy": "bm25",
+    "context": "[D3:10 | 4:21 pm on 16 July, 2023 | Tim]\nHow did you manage to connect with these big companies?\n\n[D6:14 | 1:08 pm on 11 August, 2023 | Tim]\nWow! You really made your childhood dream come true. It's impressive how your dedication and hard work paid off. It's awesome how our passions shape our lives. Do you have any big goals for your basketball career?\n\n[D14:19 | 1:50 pm on 17 October, 2023 | John]\nHow are you doing in shcool?\n\n[D16:6 | 11:41 am on 6 November, 2023 | John]\nYeah, last year I had a basketball game where we were trailing big time in the 4th quarter. We had to dig deep and keep on pushing to overturn the deficit and it was amazing when that final buzzer sounded. Unforgettable feeling.\n\n[D16:10 | 11:41 am on 6 November, 2023 | John]\nRemember that epic block in Game 7 of the '16 Finals? He chased down Iguodala and pinned the ball against the backboard. That kind of determination and heart is why I love basketball.\n\n[D19:10 | 10:22 am on 21 November, 2023 | John]\nI faced some tough times while playing basketball. I messed up during a big game, and it was really hard to accept. Instead of getting stuck in that moment, I worked hard to get better. It taught me that resilience is key and owning up to mistakes is important. Gotta keep growing and striving to be a strong player and teammate. So grateful.\n\n[D19:19 | 10:22 am on 21 November, 2023 | Tim]\nYeah, John! I recently read a book that really made a big impact on me. It's all about how small changes can make big differences. It really changed the way I do things. Have you read any good books lately?\n\n[D23:3 | 8:28 pm on 11 December, 2023 | John]\nThanks! It's a bummer about your English lit class, but you did your best. By the way, I had a career-high in assists last Friday in our big game against our rival. Yay!\n\n[D28:11 | 5:24 pm on 7 January, 2024 | Tim]\nWow! How did the game go?",
+    "retrieved_ids": [
+      "D3:10",
+      "D6:14",
+      "D14:19",
+      "D16:6",
+      "D16:10",
+      "D19:10",
+      "D19:19",
+      "D23:3",
+      "D28:11"
+    ],
+    "memory_tokens": 508,
+    "retrieval_latency_ms": 39.31
+  },
+  {
+    "sample_id": "conv-47",
+    "qa_index": 138,
+    "strategy": "recency",
+    "context": "[D31:14 | 8:57 pm on 7 November, 2022 | John]\nYou are right! I still haven’t gotten a dog, but I still really want one. What is it like to have a dog?\n\n[D31:15 | 8:57 pm on 7 November, 2022 | James]\nHaving furry friends around brings so much joy and friendship. Life wouldn't be the same without them. Every day's better with them around.\n\n[D31:16 | 8:57 pm on 7 November, 2022 | John]\nYep, they bring so much joy and love. They're always there for us! It's like having sunshine on a cloudy day.\n\n[D31:17 | 8:57 pm on 7 November, 2022 | James]\nMy dogs are like that too - they even make dark days better. Don't know what I'd do without them. They're the best buddies.\n\n[D31:18 | 8:57 pm on 7 November, 2022 | John]\nYeah, dogs are awesome for sure! They make us feel so loved and cheerful, don't they?\n\n[D31:19 | 8:57 pm on 7 November, 2022 | James]\nYeah, they definitely do. Dogs always cheer us up, wagging their tails and giving us unconditional love. It's like having a dose of positivity and happiness every day. They're amazing!\n\n[D31:20 | 8:57 pm on 7 November, 2022 | John]\nDefinitely, James! Dogs are amazing. They bring so much joy and positivity. They accept us without judgement, just love and happiness. I appreciate the daily dose of positivity they bring to my life. Special buddies for sure. By the way, here is my cousin's dog.\n\n[D31:21 | 8:57 pm on 7 November, 2022 | James]\nThis pup is so adorable! What's their name?\n\n[D31:22 | 8:57 pm on 7 November, 2022 | John]\nTheir name is Luna. \n\n[D31:23 | 8:57 pm on 7 November, 2022 | James]\nLuna's a great name!\n\n[D31:24 | 8:57 pm on 7 November, 2022 | John]\nThanks, gonna go, sorry. Cheers! Bye!\n\n[D31:25 | 8:57 pm on 7 November, 2022 | James]\nLater! Take care!",
+    "retrieved_ids": [
+      "D31:14",
+      "D31:15",
+      "D31:16",
+      "D31:17",
+      "D31:18",
+      "D31:19",
+      "D31:20",
+      "D31:21",
+      "D31:22",
+      "D31:23",
+      "D31:24",
+      "D31:25"
+    ],
+    "memory_tokens": 510,
+    "retrieval_latency_ms": 41.72
+  },
+  {
+    "sample_id": "conv-43",
+    "qa_index": 44,
+    "strategy": "semantic",
+    "context": "[D11:7 | 8:17 pm on 21 September, 2023 | John]\nWe're planning to take a team trip next month to explore a new city and have some fun. Can't wait!\n\n[D16:14 | 11:41 am on 6 November, 2023 | John]\nSpeaking of special moments, my wife and I just left for our European vacation! It will be short but sweet. You've been before, any recommendations?\n\n[D17:3 | 3:36 pm on 11 November, 2023 | John]\nMy wife and I were road tripping out on the European coastline, and it was amazing! The views were spectacular, and we had lots of fun bonding and creating amazing memories. It was such a nice change to my regular life.\n\n[D18:1 | 3:59 pm on 16 November, 2023 | Tim]\nHey John! Hope you're doing good. Guess what? I went to a castle during my trip to the UK last Friday and it was unbelievable! The architecture and the history were amazing!\n\n[D26:7 | 3:35 pm on 26 December, 2023 | John]\nWow, that's cool! Have you read any of the stories? I'm looking for some travel ideas too.\n\n[D27:1 | 5:26 pm on 2 January, 2024 | Tim]\nHi John, how's it going? Interesting things have happened since we last talked - I joined a group of globetrotters who are into the same stuff as me. It's been awesome getting to know them and hear about their trips.\n\n[D27:2 | 5:26 pm on 2 January, 2024 | John]\nHey Tim! Cool to hear about your globetrotting group! Must be great connecting with other traveling buffs. By the way, have you been to Italy? I had a blast there last month.\n\n[D27:4 | 5:26 pm on 2 January, 2024 | John]\nItaly was awesome! Everything from the food to the history and architecture was amazing. I even got this awesome book while I was there and it's been giving me some cooking inspiration.\n\n[D28:1 | 5:24 pm on 7 January, 2024 | Tim]\nHey John, long time no talk. On Friday, I got great news - I'm finally in the study abroad program I applied for! Next month, I'm off to Ireland for a semester.",
+    "retrieved_ids": [
+      "D11:7",
+      "D16:14",
+      "D17:3",
+      "D18:1",
+      "D26:7",
+      "D27:1",
+      "D27:2",
+      "D27:4",
+      "D28:1"
+    ],
+    "memory_tokens": 507,
+    "retrieval_latency_ms": 273.45
+  },
+  {
+    "sample_id": "conv-49",
+    "qa_index": 72,
+    "strategy": "recency",
+    "context": "[D25:10 | 9:37 pm on 11 January, 2024 | Evan]\nI had a great time kayaking and watching the sunset last summer - it was truly unforgettable. Being out on the water is so peaceful.\n\n[D25:11 | 9:37 pm on 11 January, 2024 | Sam]\nWow, that sounds amazing. Being in nature is so calming, right?\n\n[D25:12 | 9:37 pm on 11 January, 2024 | Evan]\nNature can be super calming. It's like pushing a reset button for your mind and body.\n\n[D25:13 | 9:37 pm on 11 January, 2024 | Sam]\nDefinitely, I couldn't agree more. There's something about being outdoors that rejuvenates you. I'm planning to spend more time in nature myself!\n\n[D25:14 | 9:37 pm on 11 January, 2024 | Evan]\nGot it. When health stuff cramps your style, it sucks. But small moments outdoors can make a big impact. This photo reminds me of last spring when I was feeling a bit down, but the vibrant colors brought a smile to my face, even if just for a moment. Remember to find joy in the little things.\n\n[D25:15 | 9:37 pm on 11 January, 2024 | Sam]\nThat pic is gorgeous! It really brightens my day. Sometimes, it's the little things that matter, right?\n\n[D25:16 | 9:37 pm on 11 January, 2024 | Evan]\nAbsolutely, Sam. It's often those little moments that make the biggest difference. Keep finding those bright spots.\n\n[D25:17 | 9:37 pm on 11 January, 2024 | Sam]\nThanks, Evan. It's good to be reminded to appreciate the small things. They do add up.\n\n[D25:18 | 9:37 pm on 11 January, 2024 | Evan]\nAnytime, Sam. It's all about those small joys, especially when times are tough. You've got this!\n\n[D25:19 | 9:37 pm on 11 January, 2024 | Sam]\nReally appreciate it, Evan. Your words help a lot. Take care!\n\n[D25:20 | 9:37 pm on 11 January, 2024 | Evan]\nYou too, Sam. And remember, I'm always here if you need to chat. Look after yourself!",
+    "retrieved_ids": [
+      "D25:10",
+      "D25:11",
+      "D25:12",
+      "D25:13",
+      "D25:14",
+      "D25:15",
+      "D25:16",
+      "D25:17",
+      "D25:18",
+      "D25:19",
+      "D25:20"
+    ],
+    "memory_tokens": 505,
+    "retrieval_latency_ms": 29.9
+  },
+  {
+    "sample_id": "conv-41",
+    "qa_index": 12,
+    "strategy": "recency",
+    "context": "[D32:8 | 11:08 am on 16 August, 2023 | Maria]\nI bet! It's great to see the community coming together to support the local fire station. \n\n[D32:9 | 11:08 am on 16 August, 2023 | John]\nYou're right, Maria. It's great to help out and see everyone coming together for this cause. It gives me a sense of purpose and passion. I feel like this is my true calling.\n\n[D32:10 | 11:08 am on 16 August, 2023 | Maria]\nAwesome, John! Loving your newfound passion. You're doing great things - keep it up! It's wonderful to see everyone coming together for this cause.\n\n[D32:11 | 11:08 am on 16 August, 2023 | John]\nThanks, Maria! Your support means a lot to me. It's amazing how finding my passion has made such a big impact. I'll keep working hard on it. The donations even helped get a brand new fire truck!\n\n[D32:12 | 11:08 am on 16 August, 2023 | Maria]\nLook at that - we all donated for it, and it looks awesome!\n\n[D32:13 | 11:08 am on 16 August, 2023 | John]\nThanks for being a part of this with me, Maria. I appreciate your support.\n\n[D32:14 | 11:08 am on 16 August, 2023 | Maria]\nHey John, I'm here for you. Last Friday, I spent some time at the shelter volunteering at the front desk. Seeing the smiles on their faces when they got food or a bed really made me feel good. We have the power to make a difference in people's lives.\n\n[D32:15 | 11:08 am on 16 August, 2023 | John]\nMaria, I'm glad you're finding fulfillment there. It's amazing how a little kindness can have such a big impact on someone's life. Let's continue making a difference in our community!\n\n[D32:16 | 11:08 am on 16 August, 2023 | Maria]\nYeah, John! Let's keep spreading kindness. It's awesome to know we can bring joy and comfort to those who need it.\n\n[D32:17 | 11:08 am on 16 August, 2023 | John]\nYeah, Maria, let's keep each other and everyone else motivated to make a difference! Together, our impact will surely last.",
+    "retrieved_ids": [
+      "D32:8",
+      "D32:9",
+      "D32:10",
+      "D32:11",
+      "D32:12",
+      "D32:13",
+      "D32:14",
+      "D32:15",
+      "D32:16",
+      "D32:17"
+    ],
+    "memory_tokens": 510,
+    "retrieval_latency_ms": 38.95
+  },
+  {
+    "sample_id": "conv-44",
+    "qa_index": 99,
+    "strategy": "semantic",
+    "context": "[D10:9 | 8:32 pm on 3 July, 2023 | Audrey]\nThey're all 3-year-old and they are a great pack. We had a doggy playdate last Friday. It was a bit crazy but still lots of fun!\n\n[D19:26 | 5:53 pm on 24 September, 2023 | Audrey]\nJust my fur babies.\n\n[D20:6 | 7:09 pm on 1 October, 2023 | Audrey]\nWe took them to the dog park nearby last Saturday. There was a big grassy area for them to play and lots of shaded spots for me to relax. They had a great time!\n\n[D21:2 | 4:18 pm on 4 October, 2023 | Audrey]\nHey Andrew! It's been a wild ride! I did something fun with my pups over the weekend, took them to the beach and it was so fun to see them playing in the ocean.\n\n[D21:4 | 4:18 pm on 4 October, 2023 | Audrey]\nThe dogs had a blast swimming at the beach! Have you been there lately?\n\n[D21:18 | 4:18 pm on 4 October, 2023 | Audrey]\nHave a great week! Bye!\n\n[D23:2 | 4:22 pm on 13 October, 2023 | Audrey]\nHey! Sounds like you've been busy! I made some goodies recently to thank my neighbors for their pup-friendly homes. It was a nice way to bring some joy around here. Any plans for the weekend?\n\n[D23:6 | 4:22 pm on 13 October, 2023 | Audrey]\nWow, looks great! Can I bring my pups with me?\n\n[D26:43 | 2:36 pm on 28 October, 2023 | Audrey]\nAww look at his happy face! I'm really looking forward to it! Can't wait to see my pups being happy and hiking.\n\n[D27:2 | 7:59 pm on 4 November, 2023 | Audrey]\nThat's cool! I love checking out new parks with my four pups. Last weekend was so fun - our dogs were able to run around and get some fresh air. On top of that, I recently joined a dog owners group to learn how to better take care of them.\n\n[D28:7 | 9:02 am on 22 November, 2023 | Audrey]\nThat's great news! What's the pups name?",
+    "retrieved_ids": [
+      "D10:9",
+      "D19:26",
+      "D20:6",
+      "D21:2",
+      "D21:4",
+      "D21:18",
+      "D23:2",
+      "D23:6",
+      "D26:43",
+      "D27:2",
+      "D28:7"
+    ],
+    "memory_tokens": 512,
+    "retrieval_latency_ms": 254.16
+  },
+  {
+    "sample_id": "conv-48",
+    "qa_index": 80,
+    "strategy": "recency",
+    "context": "[D30:5 | 10:17 am on 20 September, 2023 | Deborah]\nWow, what a view!  How did it make you feel?\n\n[D30:8 | 10:17 am on 20 September, 2023 | Jolene]\nI remember taking a hike with my partner and coming across a waterfall oasis. Everything just felt so peaceful and my worries just disappeared. It was such a refreshing experience.\n\n[D30:9 | 10:17 am on 20 September, 2023 | Deborah]\nAre you planning to experience it again soon?\n\n[D30:10 | 10:17 am on 20 September, 2023 | Jolene]\nYeah! I'm planning to get out in nature again next month. It's going to be great reconnecting with it!\n\n[D30:11 | 10:17 am on 20 September, 2023 | Deborah]\n Enjoy it! This photo made me think of a gorgeous blossom tree from near my home. Every spring, it was magical to watch it bloom.\n\n[D30:12 | 10:17 am on 20 September, 2023 | Jolene]\nThat sounds magical! How was it watching the tree bloom each spring?\n\n[D30:13 | 10:17 am on 20 September, 2023 | Deborah]\nIt was like admiring nature's artwork. It filled me with awe and made me appreciate the beauty of life. Even in tough times, there's hope for growth.\n\n[D30:14 | 10:17 am on 20 September, 2023 | Jolene]\nThis photo I took is a great visual representation of that idea. It reminds me that I can keep growing through any obstacles.\n\n[D30:15 | 10:17 am on 20 September, 2023 | Deborah]\nIt really captures resilience and strength. I love how you find inspiration in the small things.\n\n[D30:16 | 10:17 am on 20 September, 2023 | Jolene]\nThanks, Deborah! Appreciating those small things is important. It helps me remember that even when times are tough, there's always something positive to hang onto.\n\n[D30:17 | 10:17 am on 20 September, 2023 | Deborah]\nIt's a great habit. Thanks for reminding me!\n\n[D30:18 | 10:17 am on 20 September, 2023 | Jolene]\nSure Deb, it's great catching up. Keep on finding those beauties!",
+    "retrieved_ids": [
+      "D30:5",
+      "D30:8",
+      "D30:9",
+      "D30:10",
+      "D30:11",
+      "D30:12",
+      "D30:13",
+      "D30:14",
+      "D30:15",
+      "D30:16",
+      "D30:17",
+      "D30:18"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 45.1
+  },
+  {
+    "sample_id": "conv-44",
+    "qa_index": 3,
+    "strategy": "semantic",
+    "context": "[D2:8 | 2:42 pm on 2 April, 2023 | Andrew]\nThat's great to hear! I'm considering getting a dog too, but it can be challenging finding a dog-friendly place in the city. Do you have any tips on finding such a place?\n\n[D3:11 | 4:19 pm on 16 April, 2023 | Andrew]\nMy girlfriend and I love to discover new places to eat around town. It's a great way to try something new and wind down after a long week.\n\n[D7:8 | 11:27 am on 2 June, 2023 | Andrew]\nI'm still on the hunt, but it's tough finding a pet-friendly spot in the city. Been checking out some places, but no luck so far. A bit discouraged but I'm determined to find the right place and dog.\n\n[D10:2 | 8:32 pm on 3 July, 2023 | Andrew]\nHey great to hear from you! Life's thrown me a few curveballs lately. Still can't seem to find any dog-friendly spots to rent. That's a bummer. Have you been able to do any exploring on new trails?\n\n[D20:5 | 7:09 pm on 1 October, 2023 | Andrew]\nAww, they look so cute! That spot looks ideal for them to play. Where did you take them?\n\n[D23:3 | 4:22 pm on 13 October, 2023 | Andrew]\nFriday night's board game session was a nice break. This weekend, I'm planning to check out this cozy cafe and hang out there.\n\n[D23:5 | 4:22 pm on 13 October, 2023 | Andrew]\nSo this new spot just opened the other day. It's awesome with a sick view and vibe.\n\n[D24:16 | 6:12 pm on 19 October, 2023 | Andrew]\nHaha is nowhere near the city. Wish I could take them to a place like this, far from the city.\n\n[D26:24 | 2:36 pm on 28 October, 2023 | Andrew]\nI bet! Where do you guys plan to explore?\n\n[D27:1 | 7:59 pm on 4 November, 2023 | Andrew]\nHey Audrey, had a great weekend! My girlfriend and I went on a bike ride and stumbled upon a cool park outside of town. It was awesome to get away from the city and be surrounded by nature.",
+    "retrieved_ids": [
+      "D2:8",
+      "D3:11",
+      "D7:8",
+      "D10:2",
+      "D20:5",
+      "D23:3",
+      "D23:5",
+      "D24:16",
+      "D26:24",
+      "D27:1"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 361.42
+  },
+  {
+    "sample_id": "conv-49",
+    "qa_index": 112,
+    "strategy": "semantic",
+    "context": "[D4:3 | 10:52 am on 27 July, 2023 | Sam]\nThanks for the support, Evan. I'm working on my health and getting active!\n\n[D7:9 | 4:20 pm on 15 August, 2023 | Evan]\nThanks, Sam. His ankle is getting better, but still sore. It was rough at first, but thank goodness it was nothing serious.\n\n[D9:2 | 10:18 am on 27 August, 2023 | Evan]\nWow, Sam, great! Glad your new diet/exercise is going well. As for me, I've hit a sore spot lately. Twisted my knee last Friday and it's really painful, so it's been tough to stay consistent with my usual fitness routine. It's really frustrating because staying active is like, mega-important to me.\n\n[D9:7 | 10:18 am on 27 August, 2023 | Sam]\nSwimming is a good choice, Evan. It's low-impact and easy on the joints, plus it's refreshing. Keep up with the active lifestyle!\n\n[D11:2 | 8:57 pm on 6 October, 2023 | Evan]\nHey Sam! That's awesome about your healthier eating! For me, I had a setback last week - messed up my knee playing b-ball with the kids. It's been tough to stay active since. I really miss going on adventures like we did last year - good times with the family!\n\n[D11:3 | 8:57 pm on 6 October, 2023 | Sam]\nHey Evan, sorry to hear about your knee. It must be tough. Are there any ways to stay active while you heal up?\n\n[D11:4 | 8:57 pm on 6 October, 2023 | Evan]\nThanks, Sam. PT has helped some. I can't do intense workouts, but I'm doing easy exercises to keep it strong. Not as good as being active outdoors, but still something.\n\n[D11:5 | 8:57 pm on 6 October, 2023 | Sam]\nGlad PT is helping, Evan! Taking care of yourself is key – have you explored any fun indoor activities or hobbies?\n\n[D17:4 | 7:30 pm on 21 November, 2023 | Evan]\nThat sucks, Sam. It's tough when our health holds us back. I believe in you – just taking small steps can help. Have you tried any new hobbies recently to take your mind off it?",
+    "retrieved_ids": [
+      "D4:3",
+      "D7:9",
+      "D9:2",
+      "D9:7",
+      "D11:2",
+      "D11:3",
+      "D11:4",
+      "D11:5",
+      "D17:4"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 248.82
+  },
+  {
+    "sample_id": "conv-41",
+    "qa_index": 12,
+    "strategy": "bm25",
+    "context": "[D3:11 | 8:30 pm on 1 January, 2023 | John]\nThanks, Maria! I really appreciate your support, It means a lot to me. Especially after I failed the military aptitude test recently, I've been feeling a bit stressed out.\n\n[D6:12 | 2:33 pm on 5 February, 2023 | John]\nSeeing the effect unemployment has on our neighbors made me decide to act. I wanted to help out in these tough times by doing a community food drive. We can all make a difference!\n\n[D8:5 | 6:03 pm on 6 March, 2023 | Maria]\nSounds like parenting has been a wonderful experience for you - what has it been like?\n\n[D8:18 | 6:03 pm on 6 March, 2023 | John]\nWow, having symbols of travel memories in our homes is so cool! Last week I retook the aptitude test with some great results, and I feel drawn to serving my country in this way.\n\n[D15:5 | 7:38 pm on 20 May, 2023 | John]\nThanks, Maria. It sure has taken a lot of work, but I think it's worth it. Just want to let them know their hard work is appreciated.\n\n[D19:7 | 7:20 pm on 16 June, 2023 | Maria]\nWow John! Congrats on the promotion! Must have taken a lot of work. How did you feel when you found out?\n\n[D22:9 | 6:59 pm on 5 July, 2023 | John]\nYeah, for sure! When times get hard, I look at it and remember why I'm doing what I'm doing. My family is my motivation and they keep me going. What about you? What keeps you inspired?\n\n[D25:1 | 6:21 pm on 22 July, 2023 | John]\nHi Maria! It's so good to talk again. A lot has changed since last time. I'm really enjoying my new job. My team has been super encouraging and inspiring.\n\n[D29:3 | 8:06 pm on 9 August, 2023 | Maria]\nJohn, that sounds inspiring! Community events like that are always amazing. This pic is heartwarming, that little girl has such a cute smile. What was the event all about?",
+    "retrieved_ids": [
+      "D3:11",
+      "D6:12",
+      "D8:5",
+      "D8:18",
+      "D15:5",
+      "D19:7",
+      "D22:9",
+      "D25:1",
+      "D29:3"
+    ],
+    "memory_tokens": 487,
+    "retrieval_latency_ms": 37.65
+  },
+  {
+    "sample_id": "conv-48",
+    "qa_index": 148,
+    "strategy": "bm25",
+    "context": "[D8:19 | 7:18 pm on 2 March, 2023 | Deborah]\nMy tip is to break it into smaller pieces and set goals for yourself. For time management, planners or schedulers help you stay organized and give you time for yourself. Let me know if you need help with a study plan!\n\n[D10:3 | 5:35 pm on 22 March, 2023 | Deborah]\n How do you manage your time and stay organized with all the projects and deadlines?\n\n[D11:8 | 4:03 pm on 28 March, 2023 | Deborah]\nI find instrumental tracks with mellow melodies and rhythms help create a peaceful vibe. One of my favorites is a track called \"Savana.\" What songs/artists do you like listening to during your practice?\n\n[D13:7 | 3:56 pm on 6 June, 2023 | Jolene]\nThe best part so far has been being able to apply what I learned in school to real projects. It's so fulfilling to see my ideas come to life.\n\n[D13:11 | 3:56 pm on 6 June, 2023 | Jolene]\nHanging out with people who love what they do has really inspired me to stay focused and keep working towards my goals. It's shown me that with dedication and effort, anything is possible.\n\n[D13:13 | 3:56 pm on 6 June, 2023 | Jolene]\nHonestly, finding that balance has been tough. I've been slogging away and it's been hard to make time for my hobbies and chilling out.\n\n[D18:3 | 2:58 pm on 16 August, 2023 | Jolene]\nThanks, Deb! I've been trying out some time management strategies recently and started using a bullet journal. It's been really helpful for tracking my tasks and staying organized.\n\n[D18:5 | 2:58 pm on 16 August, 2023 | Jolene]\n Not only does it help me stay on top of everything, but it's also so satisfying when I cross tasks off my list. Here's a pic of my newest spread with one of my favorite quotes.\n\n[D26:6 | 7:39 pm on 8 September, 2023 | Jolene]\nHaving a routine helps me stay on top of everything I need to do. I have a schedule for classes, studying, and personal time. Self-care activities like yoga and meditation help me stay balanced and relax.",
+    "retrieved_ids": [
+      "D8:19",
+      "D10:3",
+      "D11:8",
+      "D13:7",
+      "D13:11",
+      "D13:13",
+      "D18:3",
+      "D18:5",
+      "D26:6"
+    ],
+    "memory_tokens": 506,
+    "retrieval_latency_ms": 38.41
+  },
+  {
+    "sample_id": "conv-50",
+    "qa_index": 154,
+    "strategy": "recency",
+    "context": "[D30:15 | 10:54 am on 17 November, 2023 | Dave]\nThanks, Calvin! I found this serene spot in a nearby park and took this pic.\n\n[D30:16 | 10:54 am on 17 November, 2023 | Calvin]\nWow, that sounds like such a peaceful and serene spot. Can't wait to check it out myself sometime. Check out this beautiful picture that I shot in a Japanese garden, that's wild!\n\n[D30:17 | 10:54 am on 17 November, 2023 | Dave]\nCool, Calvin! Found an even better spot, with a bench under a tree with pink flowers - so peaceful. A perfect spot to relax and take in the beauty.\n\n[D30:18 | 10:54 am on 17 November, 2023 | Calvin]\nThat sounds great, Dave! Can't wait to see it.\n\n[D30:19 | 10:54 am on 17 November, 2023 | Dave]\nCheck it out, Calvin. It's really calming, I think you'll like it. We will definitely go there! Is there anything else you'd like to share?\n\n[D30:20 | 10:54 am on 17 November, 2023 | Calvin]\nThank you for asking, Dave! Yes, I have a few more great news! I've accepted an invitation to perform at an upcoming show in Boston! It's going to be an unforgettable musical experience. Can't wait to fill you in on all the details. Catch up with you soon!\n\n[D30:21 | 10:54 am on 17 November, 2023 | Dave]\nWow, Calvin! That's amazing news! Congratulations on both the gala attendance and the upcoming performance. I can't wait to hear all about it and maybe even catch one of your shows in Boston. Let me know when you're free to catch up. Cheers to your musical journey!\n\n[D30:22 | 10:54 am on 17 November, 2023 | Calvin]\nThanks, Dave! I'll catch you when I'm in Boston. Cheers!\n\n[D30:23 | 10:54 am on 17 November, 2023 | Dave]\nLooking forward to seeing you. Stay safe, talk to you soon!\n\n[D30:24 | 10:54 am on 17 November, 2023 | Calvin]\nThanks! You too. Talk to you later!",
+    "retrieved_ids": [
+      "D30:15",
+      "D30:16",
+      "D30:17",
+      "D30:18",
+      "D30:19",
+      "D30:20",
+      "D30:21",
+      "D30:22",
+      "D30:23",
+      "D30:24"
+    ],
+    "memory_tokens": 490,
+    "retrieval_latency_ms": 33.75
+  },
+  {
+    "sample_id": "conv-26",
+    "qa_index": 62,
+    "strategy": "semantic",
+    "context": "[D4:8 | 10:37 am on 27 June, 2023 | Melanie]\nIt was an awesome time, Caroline! We explored nature, roasted marshmallows around the campfire and even went on a hike. The view from the top was amazing! The 2 younger kids love nature. It was so special having these moments together as a family - I'll never forget it!\n\n[D6:5 | 8:18 pm on 6 July, 2023 | Caroline]\nMelanie, that's a great pic! That must have been awesome. What were they so stoked about?\n\n[D7:27 | 4:33 pm on 12 July, 2023 | Caroline]\nGlad it helped ya, Melanie!\n\n[D10:8 | 8:56 pm on 20 July, 2023 | Melanie]\nWow, fantastic, Caroline! Bet the atmosphere was incredible. Oh yeah, we went to the beach recently. It was awesome! The kids had such a blast.\n\n[D12:16 | 1:50 pm on 17 August, 2023 | Melanie]\nThat was a blast! So much fun with the whole gang! Wanna do a family outing this summer?\n\n[D15:2 | 3:19 pm on 28 August, 2023 | Melanie]\nHey Caroline! Since we last spoke, I took my kids to a park yesterday. They had fun exploring and playing. It was nice seeing them have a good time outdoors. Time flies, huh? What's new with you?\n\n[D15:16 | 3:19 pm on 28 August, 2023 | Melanie]\n\"Summer Sounds\"- The playing an awesome pop song that got everyone dancing and singing. It was so fun and lively!\n\n[D16:2 | 12:09 am on 13 September, 2023 | Melanie]\nHey Caroline! It's so good to hear from you! That pic is so beautiful, the colors really pop. Biking sounds like a great way to get out in nature. We went camping with the kids a few weeks ago, had a blast exploring the forest and hiking. Nature can be so refreshing for your soul. Any plans coming up?\n\n[D16:3 | 12:09 am on 13 September, 2023 | Caroline]\nMelanie, that photo's amazing! I love all the yellow leaves, it looks so cozy. That sounds like fun! Seeing how excited they get for the little things is awesome, it's so contagious.",
+    "retrieved_ids": [
+      "D4:8",
+      "D6:5",
+      "D7:27",
+      "D10:8",
+      "D12:16",
+      "D15:2",
+      "D15:16",
+      "D16:2",
+      "D16:3"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 194.97
+  },
+  {
+    "sample_id": "conv-43",
+    "qa_index": 140,
+    "strategy": "recency",
+    "context": "[D29:6 | 1:41 pm on 12 January, 2024 | John]\nThanks! It felt crazy. It's not just about the signing, but it's about feeling like all the hard work paid off - like all those training hours weren't for nothing.\n\n[D29:7 | 1:41 pm on 12 January, 2024 | Tim]\nWow! I bet you were thrilled when everything finally worked out. That sense of accomplishment is awesome and really boosts your self-esteem. I can imagine all the hard work you put into it was definitely worth it.\n\n[D29:8 | 1:41 pm on 12 January, 2024 | John]\nYeah, it's great when you reach a goal and it feels rewarding. It's a reminder that you're going in the right direction, and all the hard work was worth it. What's something you feel proud of recently?\n\n[D29:9 | 1:41 pm on 12 January, 2024 | Tim]\nI'm proud of researching visa requirements for countries I want to visit. It feels like taking initiative is a step towards making my travel dreams a reality!\n\n[D29:10 | 1:41 pm on 12 January, 2024 | John]\nGreat going! Taking initiative is a must if you wanna achieve your goals. I'm excited to hear about all your future adventures!\n\n[D29:11 | 1:41 pm on 12 January, 2024 | Tim]\nThanks! I'll keep you in the loop about my travels. Is there anywhere you recommend visiting?\n\n[D29:12 | 1:41 pm on 12 January, 2024 | John]\nBarcelona is a must-visit city! You'll love exploring the culture, admiring the architecture, and tasting the amazing food in each neighborhood. Plus, the nearby beaches are great for soaking up the sun. Definitely add it to your travel list!\n\n[D29:13 | 1:41 pm on 12 January, 2024 | Tim]\nBarcelona sounds awesome! I've heard so many great things. Definitely adding it to my list. Thanks!\n\n[D29:14 | 1:41 pm on 12 January, 2024 | John]\nNo problem! Glad you liked the suggestion. Let me know if you have any other questions or need help with anything.\n\n[D29:15 | 1:41 pm on 12 January, 2024 | Tim]\nCheers! I owe you one. Let me know if you need anything. Bye!",
+    "retrieved_ids": [
+      "D29:6",
+      "D29:7",
+      "D29:8",
+      "D29:9",
+      "D29:10",
+      "D29:11",
+      "D29:12",
+      "D29:13",
+      "D29:14",
+      "D29:15"
+    ],
+    "memory_tokens": 511,
+    "retrieval_latency_ms": 40.04
+  },
+  {
+    "sample_id": "conv-47",
+    "qa_index": 23,
+    "strategy": "bm25",
+    "context": "[D4:9 | 2:13 pm on 4 April, 2022 | John]\nCool! I'm sure his advice will help you develop in the game.\n\n[D10:13 | 12:45 am on 8 May, 2022 | James]\nGlad you are helping those in need! You are doing a great job John, keep up the good work!\n\n[D13:3 | 4:30 pm on 13 June, 2022 | John]\nI finally got my dream job! After lots of interviews and late nights, I got the offer and was ecstatic. Can't wait to start my journey!\n\n[D13:4 | 4:30 pm on 13 June, 2022 | James]\nWow, John! Congrats on getting your dream job. I'm super stoked for you. When do you start?\n\n[D16:10 | 5:13 pm on 9 July, 2022 | John]\nCool, this is already the fourth country you will visit! Will you only be in Toronto, or will you be visiting somewhere else?\n\n[D16:12 | 5:13 pm on 9 July, 2022 | John]\nWhen are you coming back?\n\n[D18:1 | 1:45 pm on 6 August, 2022 | John]\nHey James, good catching up! Been a while huh? I made a huge call - recently left my IT job after 3 years. It was tough but I wanted something that made a difference. And now with this new job, I am happy about my decision. I am loving the new job!\n\n[D18:13 | 1:45 pm on 6 August, 2022 | John]\nI will definitely do this if necessary! By the way, what's new with you?\n\n[D20:7 | 3:57 pm on 21 August, 2022 | John]\nI think not, this is just a one-time experience to learn something new and work as a team. I'm still full of courage to start hosting eSports competitions. Do you participate in any online groups?\n\n[D21:4 | 9:18 pm on 26 August, 2022 | John]\nThat's right, his name is Ned, how could I forget?!\n\n[D23:11 | 9:23 pm on 4 September, 2022 | James]\nCool! I hope the new devices will improve your skill and you will play even better!",
+    "retrieved_ids": [
+      "D4:9",
+      "D10:13",
+      "D13:3",
+      "D13:4",
+      "D16:10",
+      "D16:12",
+      "D18:1",
+      "D18:13",
+      "D20:7",
+      "D21:4",
+      "D23:11"
+    ],
+    "memory_tokens": 503,
+    "retrieval_latency_ms": 39.73
+  },
+  {
+    "sample_id": "conv-26",
+    "qa_index": 104,
+    "strategy": "semantic",
+    "context": "[D1:10 | 1:56 pm on 8 May, 2023 | Melanie]\nWow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?\n\n[D4:1 | 10:37 am on 27 June, 2023 | Caroline]\nHey Melanie! Long time no talk! A lot's been going on in my life! Take a look at this.\n\n[D4:17 | 10:37 am on 27 June, 2023 | Caroline]\nThanks, Melanie! Your kind words mean a lot.\n\n[D7:8 | 4:33 pm on 12 July, 2023 | Melanie]\nCaroline, so glad you got the support! Your experience really brought you to where you need to be. You're gonna make a huge difference! This book I read last year reminds me to always pursue my dreams, just like you are doing!🌟\n\n[D7:10 | 4:33 pm on 12 July, 2023 | Melanie]\nWow, Caroline! Books have such an awesome power! Which one has been your favorite guide?\n\n[D7:27 | 4:33 pm on 12 July, 2023 | Caroline]\nGlad it helped ya, Melanie!\n\n[D9:7 | 2:31 pm on 17 July, 2023 | Melanie]\nCaroline, awesome news that you two are getting along! What was it like for you both? Care to fill me in?\n\n[D11:16 | 2:24 pm on 14 August, 2023 | Caroline]\nThanks, Melanie. It means a lot to share this with you.\n\n[D12:13 | 1:50 pm on 17 August, 2023 | Caroline]\nThanks, Melanie! It means a lot having you in my corner. Appreciate our friendship!\n\n[D14:18 | 1:33 pm on 25 August, 2023 | Melanie]\nWow, Caroline, that looks amazing! What inspired it?\n\n[D17:6 | 10:31 am on 13 October, 2023 | Melanie]\nThanks, Caroline! Appreciate your help. Got any tips for getting started on it?\n\n[D17:10 | 10:31 am on 13 October, 2023 | Melanie]\nThanks, Caroline. It was tough, but I'm doing ok. Been reading that book you recommended a while ago and painting to keep busy.",
+    "retrieved_ids": [
+      "D1:10",
+      "D4:1",
+      "D4:17",
+      "D7:8",
+      "D7:10",
+      "D7:27",
+      "D9:7",
+      "D11:16",
+      "D12:13",
+      "D14:18",
+      "D17:6",
+      "D17:10"
+    ],
+    "memory_tokens": 499,
+    "retrieval_latency_ms": 188.73
+  },
+  {
+    "sample_id": "conv-44",
+    "qa_index": 99,
+    "strategy": "bm25",
+    "context": "[D3:16 | 4:19 pm on 16 April, 2023 | Audrey]\nWow, they look great! What did you get? Now I'm craving pastries!\n\n[D5:2 | 10:47 am on 6 May, 2023 | Audrey]\nSounds like a fun and demanding task! Getting to meet new pups must bring so much happiness. What  do you think you can do to make the process smoother?\n\n[D17:1 | 12:24 am on 24 August, 2023 | Andrew]\nHey Audrey! What's up? Last weekend my girlfriend and I went fishing in one of the nearby lakes. It was so nice. We got a few fish and had a blast. Have you ever gone fishing before?\n\n[D19:2 | 5:53 pm on 24 September, 2023 | Audrey]\nHey! I'm alright. Had some bumps though - last Friday at the park one of my pups saw something and pulled so hard the leash busted. Scared that she might run off and get hurt, so I had to chase after her. Luckily I caught her before anything bad happened. Little moments like this remind me how important she is and how we should be careful when we're out there.\n\n[D19:3 | 5:53 pm on 24 September, 2023 | Andrew]\nOh man, sorry to hear that! I'm totally getting anxious just thinking about my dog getting lost. Precious must have been really scared. What did you do to calm her down?\n\n[D21:2 | 4:18 pm on 4 October, 2023 | Audrey]\nHey Andrew! It's been a wild ride! I did something fun with my pups over the weekend, took them to the beach and it was so fun to see them playing in the ocean.\n\n[D21:14 | 4:18 pm on 4 October, 2023 | Audrey]\nHaha i'm just doing what I can do to help.\n\n[D23:6 | 4:22 pm on 13 October, 2023 | Audrey]\nWow, looks great! Can I bring my pups with me?\n\n[D26:4 | 2:36 pm on 28 October, 2023 | Andrew]\nSo what tips did you get? What will you be doing to help with the problems?\n\n[D28:7 | 9:02 am on 22 November, 2023 | Audrey]\nThat's great news! What's the pups name?",
+    "retrieved_ids": [
+      "D3:16",
+      "D5:2",
+      "D17:1",
+      "D19:2",
+      "D19:3",
+      "D21:2",
+      "D21:14",
+      "D23:6",
+      "D26:4",
+      "D28:7"
+    ],
+    "memory_tokens": 505,
+    "retrieval_latency_ms": 40.15
+  },
+  {
+    "sample_id": "conv-49",
+    "qa_index": 112,
+    "strategy": "recency",
+    "context": "[D25:10 | 9:37 pm on 11 January, 2024 | Evan]\nI had a great time kayaking and watching the sunset last summer - it was truly unforgettable. Being out on the water is so peaceful.\n\n[D25:11 | 9:37 pm on 11 January, 2024 | Sam]\nWow, that sounds amazing. Being in nature is so calming, right?\n\n[D25:12 | 9:37 pm on 11 January, 2024 | Evan]\nNature can be super calming. It's like pushing a reset button for your mind and body.\n\n[D25:13 | 9:37 pm on 11 January, 2024 | Sam]\nDefinitely, I couldn't agree more. There's something about being outdoors that rejuvenates you. I'm planning to spend more time in nature myself!\n\n[D25:14 | 9:37 pm on 11 January, 2024 | Evan]\nGot it. When health stuff cramps your style, it sucks. But small moments outdoors can make a big impact. This photo reminds me of last spring when I was feeling a bit down, but the vibrant colors brought a smile to my face, even if just for a moment. Remember to find joy in the little things.\n\n[D25:15 | 9:37 pm on 11 January, 2024 | Sam]\nThat pic is gorgeous! It really brightens my day. Sometimes, it's the little things that matter, right?\n\n[D25:16 | 9:37 pm on 11 January, 2024 | Evan]\nAbsolutely, Sam. It's often those little moments that make the biggest difference. Keep finding those bright spots.\n\n[D25:17 | 9:37 pm on 11 January, 2024 | Sam]\nThanks, Evan. It's good to be reminded to appreciate the small things. They do add up.\n\n[D25:18 | 9:37 pm on 11 January, 2024 | Evan]\nAnytime, Sam. It's all about those small joys, especially when times are tough. You've got this!\n\n[D25:19 | 9:37 pm on 11 January, 2024 | Sam]\nReally appreciate it, Evan. Your words help a lot. Take care!\n\n[D25:20 | 9:37 pm on 11 January, 2024 | Evan]\nYou too, Sam. And remember, I'm always here if you need to chat. Look after yourself!",
+    "retrieved_ids": [
+      "D25:10",
+      "D25:11",
+      "D25:12",
+      "D25:13",
+      "D25:14",
+      "D25:15",
+      "D25:16",
+      "D25:17",
+      "D25:18",
+      "D25:19",
+      "D25:20"
+    ],
+    "memory_tokens": 505,
+    "retrieval_latency_ms": 33.07
+  },
+  {
+    "sample_id": "conv-48",
+    "qa_index": 80,
+    "strategy": "bm25",
+    "context": "[D10:6 | 5:35 pm on 22 March, 2023 | Jolene]\nI tried making one but it's kinda overwhelming when it's a big stack of tasks. Here's an example from last Friday.\n\n[D10:7 | 5:35 pm on 22 March, 2023 | Deborah]\nHave you tried breaking it down or prioritizing the tasks?\n\n[D10:19 | 5:35 pm on 22 March, 2023 | Deborah]\nSurfing, huh Jolene? Chase your dreams, don't be daunted. Have you thought about the steps you can take?\n\n[D10:20 | 5:35 pm on 22 March, 2023 | Jolene]\nDefinitely! I've been gathering information, watching videos, and I even got a beginners' guide to surfing. Just need to find the right time and place to get a lesson.\n\n[D10:22 | 5:35 pm on 22 March, 2023 | Jolene]\nThanks for the support! Those got me pumped to try surfing. Gonna keep pushing myself to make it happen.\n\n[D13:9 | 3:56 pm on 6 June, 2023 | Jolene]\nIt has had a positive impact on my life. It has stoked my love of engineering and has encouraged me to keep striving for my dreams.\n\n[D13:19 | 3:56 pm on 6 June, 2023 | Jolene]\nIt has helped me with stress and kept me centered.\n\n[D14:3 | 9:17 am on 26 June, 2023 | Deborah]\nBy the way, I tried a new pose - Dancer Pose (Natarajasana). Rate, did I succeed?\n\n[D28:10 | 3:09 pm on 15 September, 2023 | Jolene]\nWow, what a gorgeous pic! Do you have any special memories of that beach or just love surfing in general?\n\n[D28:16 | 3:09 pm on 15 September, 2023 | Jolene]\n I like to create my own serene yoga space with candles and oils for extra chill vibes. Also, we tried a new style of meditation in Thailand - with flowers.\n\n[D29:24 | 1:24 pm on 17 September, 2023 | Jolene]\nSounds nice, Deb! A cozy nook is a must! The beach is a great place for finding peace and relaxation. Have you ever tried surfing?",
+    "retrieved_ids": [
+      "D10:6",
+      "D10:7",
+      "D10:19",
+      "D10:20",
+      "D10:22",
+      "D13:9",
+      "D13:19",
+      "D14:3",
+      "D28:10",
+      "D28:16",
+      "D29:24"
+    ],
+    "memory_tokens": 509,
+    "retrieval_latency_ms": 40.63
+  },
+  {
+    "sample_id": "conv-30",
+    "qa_index": 13,
+    "strategy": "recency",
+    "context": "[D18:22 | 5:44 pm on 21 July, 2023 | Jon]\nThanks for having my back.\n\n[D19:3 | 6:46 pm on 23 July, 2023 | Jon]\nHa, ha! Thanks, Gina. Sounds familiar, who do those words belong to?\n\n[D19:4 | 6:46 pm on 23 July, 2023 | Gina]\nIt's Shia Labeouf!\n\n[D19:5 | 6:46 pm on 23 July, 2023 | Jon]\nAhhahha, really!? Yea, that definitely him.\n\n[D19:6 | 6:46 pm on 23 July, 2023 | Gina]\nHah, yeah!) But really having a creative space for dancers is so important. Last Friday at dance class with a group of friends I felt it. Your studio will be a go-to spot for self-expression. Keep up the good work and don't forget your passion for dance.\n\n[D19:7 | 6:46 pm on 23 July, 2023 | Jon]\nThanks, Gina! Your words of encouragement keep me motivated. Can't wait 'til my studio starts welcoming dancers of all ages and backgrounds!\n\n[D19:8 | 6:46 pm on 23 July, 2023 | Gina]\nI'm so happy to see my words motivating you, Jon. <3\n\n[D19:9 | 6:46 pm on 23 July, 2023 | Jon]\nThanks a ton, Gina! Your help and encouragement mean a lot. Your support will help me make it happen.\n\n[D19:10 | 6:46 pm on 23 July, 2023 | Gina]\nYou're welcome, Jon! I'm here to support you. Every step's getting you closer to your dream. Never give up! You're doing great.\n\n[D19:11 | 6:46 pm on 23 July, 2023 | Jon]\nThanks, Gina! I won't quit. I'm gonna keep going, whatever comes my way.\n\n[D19:12 | 6:46 pm on 23 July, 2023 | Gina]\nRemember Jon, Just do it!\n\n[D19:13 | 6:46 pm on 23 July, 2023 | Jon]\nAh ha ha, yeah, JUST DOING IT!\n\n[D19:14 | 6:46 pm on 23 July, 2023 | Gina]\nThat's the spirit! Bye!",
+    "retrieved_ids": [
+      "D18:22",
+      "D19:3",
+      "D19:4",
+      "D19:5",
+      "D19:6",
+      "D19:7",
+      "D19:8",
+      "D19:9",
+      "D19:10",
+      "D19:11",
+      "D19:12",
+      "D19:13",
+      "D19:14"
+    ],
+    "memory_tokens": 509,
+    "retrieval_latency_ms": 24.06
+  },
+  {
+    "sample_id": "conv-50",
+    "qa_index": 52,
+    "strategy": "semantic",
+    "context": "[D1:15 | 11:53 am on 23 March, 2023 | Calvin]\nI'm gonna be in Japan for a few months then off to Boston! I can't wait!\n\n[D10:10 | 7:56 pm on 7 July, 2023 | Calvin]\nThanks Dave! Japan is indeed amazing. Can't wait to try the food and check out the culture. Have you ever been there?\n\n[D14:5 | 12:35 am on 14 August, 2023 | Dave]\nWow, Calvin! I bet playing for an eager audience was an incredible experience. Exploring Japan must have been amazing! How did Tokyo react to your music? Did you have any special moments there?\n\n[D15:5 | 11:06 am on 22 August, 2023 | Dave]\nWow, Tokyo sounds like an incredible experience!\n\n[D24:12 | 10:11 am on 19 October, 2023 | Dave]\nWow, Calvin, Tokyo looks incredible! Here's a pic I found online, and it's making me dream about visiting someday. The energy there seems unbeatable! Have you ever visited streets like that?\n\n[D24:13 | 10:11 am on 19 October, 2023 | Calvin]\nYes, Dave! That was an incredible experience to visit similar streets like you shared in your photo. Is there anything else that interests you in Tokyo?\n\n[D24:14 | 10:11 am on 19 October, 2023 | Dave]\nOf course, Calvin! Tokyo is amazing! I want to know everything about it - the people, the culture, the food, take a walk at the vibrant city life! In the photo below, the city is so alive and colorful that's impressive! It will be an unforgettable experience!\n\n[D24:17 | 10:11 am on 19 October, 2023 | Calvin]\nCool, Dave! I'm actually going to Tokyo next month after the tour ends. Sometimes I wish I could go back to places like the one in the photo below. What a great view!\n\n[D24:18 | 10:11 am on 19 October, 2023 | Dave]\nWow, Calvin! That's great to hear! Any specific spots in Tokyo that you're really excited to check out?\n\n[D24:21 | 10:11 am on 19 October, 2023 | Calvin]\nThanks, Dave! Never tried it, but it's supposed to be awesome. Gonna give it a shot while in Tokyo!",
+    "retrieved_ids": [
+      "D1:15",
+      "D10:10",
+      "D14:5",
+      "D15:5",
+      "D24:12",
+      "D24:13",
+      "D24:14",
+      "D24:17",
+      "D24:18",
+      "D24:21"
+    ],
+    "memory_tokens": 512,
+    "retrieval_latency_ms": 219.67
+  },
+  {
+    "sample_id": "conv-30",
+    "qa_index": 13,
+    "strategy": "semantic",
+    "context": "[D2:1 | 2:32 pm on 29 January, 2023 | Gina]\nHey Jon! Long time no see! Things have been hectic lately. I just launched an ad campaign for my clothing store in hopes of growing the business. Starting my own store and taking risks is both scary and rewarding. I'm excited to see where it takes me!\n\n[D3:2 | 12:48 am on 1 February, 2023 | Gina]\nHi Jon! So happy you're pushing forward with dancing! Inspiring 💪 I emailed some wholesalers and one replied and said yes today! I'm over the moon because now I can expand my clothing store and get closer to my customers. Check it out - here's a pic!\n\n[D6:6 | 2:35 pm on 16 March, 2023 | Gina]\nYay! My online clothes store is open! I've been dreaming of this for a while now - can't wait to see what happens!\n\n[D7:2 | 7:28 pm on 23 March, 2023 | Gina]\nHey Jon, my online clothing store has been a roller coaster but rewarding. Starting a business takes courage - you hang in there too!\n\n[D10:2 | 11:24 am on 25 April, 2023 | Gina]\nHey Jon, congrats on the fair! It's awesome to see your hard work paying off. Keep on pushing, pal, you're headed for greatness. Oh, and BTW, I started my own online clothing store not so long ago - pretty cool, huh?\n\n[D14:8 | 9:38 pm on 16 June, 2023 | Gina]\nHa, yeah, Jon. I've been one 'cause I lost my job. I opened an online clothing store and it's been great! Being my own boss and doing something I love is awesome.\n\n[D16:2 | 2:15 pm on 21 June, 2023 | Jon]\nCongrats on your store, Gina! Happy for you! It looks sick - is it a unique piece you're selling?\n\n[D18:2 | 5:44 pm on 21 July, 2023 | Jon]\nHey Gina, congrats on the clothing store! The dance studio is on tenuous grounds right now, but I'm staying positive. I got a temp job to help cover expenses while I look for investors. It's tough, but I'm sure it'll be worth it.",
+    "retrieved_ids": [
+      "D2:1",
+      "D3:2",
+      "D6:6",
+      "D7:2",
+      "D10:2",
+      "D14:8",
+      "D16:2",
+      "D18:2"
+    ],
+    "memory_tokens": 495,
+    "retrieval_latency_ms": 189.37
+  },
+  {
+    "sample_id": "conv-41",
+    "qa_index": 12,
+    "strategy": "semantic",
+    "context": "[D1:7 | 11:01 am on 17 December, 2022 | Maria]\nWoohoo, John! That's awesome! Any specific areas you want to tackle?\n\n[D8:18 | 6:03 pm on 6 March, 2023 | John]\nWow, having symbols of travel memories in our homes is so cool! Last week I retook the aptitude test with some great results, and I feel drawn to serving my country in this way.\n\n[D9:11 | 9:36 am on 2 April, 2023 | Maria]\nWay to go, John! You're really showing dedication and commitment. Gaining first-hand experience and working to find solutions is awesome!\n\n[D12:12 | 7:34 pm on 18 April, 2023 | Maria]\nNo way, John! That's really cool. What was the most exciting part of it?\n\n[D13:7 | 3:18 pm on 4 May, 2023 | John]\nThanks, Maria! Three times a week; it keeps us on track.\n\n[D13:29 | 3:18 pm on 4 May, 2023 | John]\nThe pic takes me back. Did you try anything new on your vacation?\n\n[D13:34 | 3:18 pm on 4 May, 2023 | Maria]\nYeah, John! That's so important.\n\n[D14:2 | 5:04 pm on 6 May, 2023 | Maria]\nWay to go, John! You're doing great. I'm so proud of you for sticking with it. You're always dreaming up ways to make a difference and I'm sure your drive will pay off. Don't be afraid to take risks-- I'm 100% behind you!\n\n[D19:13 | 7:20 pm on 16 June, 2023 | Maria]\nWow, John, it's incredible to see how far you've come! Your perseverance and determination is so inspiring. I can imagine those hurdles were tough to deal with, especially the self-doubt.\n\n[D29:7 | 8:06 pm on 9 August, 2023 | Maria]\nWow, John, that sounds like a lot of effort! Your dedication definitely paid off. Were there any challenges along the way?\n\n[D29:9 | 8:06 pm on 9 August, 2023 | Maria]\nWow, John! You really overcame those challenges. Have you done events for any other causes?",
+    "retrieved_ids": [
+      "D1:7",
+      "D8:18",
+      "D9:11",
+      "D12:12",
+      "D13:7",
+      "D13:29",
+      "D13:34",
+      "D14:2",
+      "D19:13",
+      "D29:7",
+      "D29:9"
+    ],
+    "memory_tokens": 503,
+    "retrieval_latency_ms": 302.0
+  },
+  {
+    "sample_id": "conv-41",
+    "qa_index": 76,
+    "strategy": "recency",
+    "context": "[D32:8 | 11:08 am on 16 August, 2023 | Maria]\nI bet! It's great to see the community coming together to support the local fire station. \n\n[D32:9 | 11:08 am on 16 August, 2023 | John]\nYou're right, Maria. It's great to help out and see everyone coming together for this cause. It gives me a sense of purpose and passion. I feel like this is my true calling.\n\n[D32:10 | 11:08 am on 16 August, 2023 | Maria]\nAwesome, John! Loving your newfound passion. You're doing great things - keep it up! It's wonderful to see everyone coming together for this cause.\n\n[D32:11 | 11:08 am on 16 August, 2023 | John]\nThanks, Maria! Your support means a lot to me. It's amazing how finding my passion has made such a big impact. I'll keep working hard on it. The donations even helped get a brand new fire truck!\n\n[D32:12 | 11:08 am on 16 August, 2023 | Maria]\nLook at that - we all donated for it, and it looks awesome!\n\n[D32:13 | 11:08 am on 16 August, 2023 | John]\nThanks for being a part of this with me, Maria. I appreciate your support.\n\n[D32:14 | 11:08 am on 16 August, 2023 | Maria]\nHey John, I'm here for you. Last Friday, I spent some time at the shelter volunteering at the front desk. Seeing the smiles on their faces when they got food or a bed really made me feel good. We have the power to make a difference in people's lives.\n\n[D32:15 | 11:08 am on 16 August, 2023 | John]\nMaria, I'm glad you're finding fulfillment there. It's amazing how a little kindness can have such a big impact on someone's life. Let's continue making a difference in our community!\n\n[D32:16 | 11:08 am on 16 August, 2023 | Maria]\nYeah, John! Let's keep spreading kindness. It's awesome to know we can bring joy and comfort to those who need it.\n\n[D32:17 | 11:08 am on 16 August, 2023 | John]\nYeah, Maria, let's keep each other and everyone else motivated to make a difference! Together, our impact will surely last.",
+    "retrieved_ids": [
+      "D32:8",
+      "D32:9",
+      "D32:10",
+      "D32:11",
+      "D32:12",
+      "D32:13",
+      "D32:14",
+      "D32:15",
+      "D32:16",
+      "D32:17"
+    ],
+    "memory_tokens": 510,
+    "retrieval_latency_ms": 39.1
+  },
+  {
+    "sample_id": "conv-41",
+    "qa_index": 76,
+    "strategy": "semantic",
+    "context": "[D1:6 | 11:01 am on 17 December, 2022 | John]\nYeah Maria, I'm really hoping to get into local politics. I love helping the community and making it a better place.\n\n[D1:13 | 11:01 am on 17 December, 2022 | Maria]\nWow John, it really made a difference for schools and students! It must have been great to be involved. What's your next move in politics?\n\n[D6:3 | 2:33 pm on 5 February, 2023 | Maria]\nThanks, John! It was such a rewarding experience. Just the act of serving meals and seeing the gratitude on their faces was truly heartwarming. It reminded me of how powerful compassion can be. So, tell me, what made you get into politics?\n\n[D6:4 | 2:33 pm on 5 February, 2023 | John]\nI feel a strong urge to serve my country and community. Running for office was my chance to make an impact. But anyway, tell me more about your charity event. Did something special happen that made it meaningful for you?\n\n[D7:2 | 8:55 pm on 25 February, 2023 | John]\nHey Maria! Wanted to let you know that I'm running for office again. It's been a wild ride, but I'm more excited than ever! How have you been?\n\n[D7:3 | 8:55 pm on 25 February, 2023 | Maria]\nCongrats, John! What made you decide to run again? As for me, I've been volunteering at a homeless shelter and it's really rewarding.\n\n[D7:4 | 8:55 pm on 25 February, 2023 | John]\nThanks, Maria! After my last run, I saw the impact I could make in the community through politics. It's rewarding to work towards positive changes and a better future.\n\n[D14:1 | 5:04 pm on 6 May, 2023 | John]\nHey Maria, great to chat again! A lot has happened since we last spoke. Last week, I decided to run for office again - even though I haven't been successful before. I guess I can't let go of my dream to make a difference in my community. Can you believe it? Feels like a dream come true!\n\n[D21:23 | 8:43 pm on 3 July, 2023 | Maria]\nWow, John! What inspired you to join it?",
+    "retrieved_ids": [
+      "D1:6",
+      "D1:13",
+      "D6:3",
+      "D6:4",
+      "D7:2",
+      "D7:3",
+      "D7:4",
+      "D14:1",
+      "D21:23"
+    ],
+    "memory_tokens": 510,
+    "retrieval_latency_ms": 252.5
+  },
+  {
+    "sample_id": "conv-48",
+    "qa_index": 148,
+    "strategy": "semantic",
+    "context": "[D10:3 | 5:35 pm on 22 March, 2023 | Deborah]\n How do you manage your time and stay organized with all the projects and deadlines?\n\n[D10:4 | 5:35 pm on 22 March, 2023 | Jolene]\nI'm using the Pomodoro Technique - 25 minutes work, 5-minute break - to avoid burnout but I'm still struggling to prioritize. Do you have any other tips on time management?\n\n[D10:6 | 5:35 pm on 22 March, 2023 | Jolene]\nI tried making one but it's kinda overwhelming when it's a big stack of tasks. Here's an example from last Friday.\n\n[D10:9 | 5:35 pm on 22 March, 2023 | Deborah]\nI get it, Jolene. When I'm overloaded, I use a certain method. It helps me figure out what's important and urgent so I'm more organized. Do you know about it?\n\n[D16:10 | 9:26 am on 1 August, 2023 | Jolene]\nI'm trying to prioritize self-care, like yoga and meditation. It helps me stay balanced and grounded.\n\n[D18:1 | 2:58 pm on 16 August, 2023 | Jolene]\nBeen thinking a lot about my plans lately, especially after checking in with my bf. It's been up and down!  Some days it feels like I'm trying to juggle my engineering, relationship, and growing as a person, and I just don't know how to handle it all. How do you manage when it's too much?\n\n[D18:3 | 2:58 pm on 16 August, 2023 | Jolene]\nThanks, Deb! I've been trying out some time management strategies recently and started using a bullet journal. It's been really helpful for tracking my tasks and staying organized.\n\n[D18:5 | 2:58 pm on 16 August, 2023 | Jolene]\n Not only does it help me stay on top of everything, but it's also so satisfying when I cross tasks off my list. Here's a pic of my newest spread with one of my favorite quotes.\n\n[D26:6 | 7:39 pm on 8 September, 2023 | Jolene]\nHaving a routine helps me stay on top of everything I need to do. I have a schedule for classes, studying, and personal time. Self-care activities like yoga and meditation help me stay balanced and relax.",
+    "retrieved_ids": [
+      "D10:3",
+      "D10:4",
+      "D10:6",
+      "D10:9",
+      "D16:10",
+      "D18:1",
+      "D18:3",
+      "D18:5",
+      "D26:6"
+    ],
+    "memory_tokens": 507,
+    "retrieval_latency_ms": 283.95
+  },
+  {
+    "sample_id": "conv-26",
+    "qa_index": 62,
+    "strategy": "bm25",
+    "context": "[D1:18 | 1:56 pm on 8 May, 2023 | Melanie]\nYep, Caroline. Taking care of ourselves is vital. I'm off to go swimming with the kids. Talk to you soon!\n\n[D8:10 | 1:51 pm on 15 July, 2023 | Melanie]\nWow, Caroline, way to go! Your future fam will get a kick out of having you. What do you think of these?\n\n[D8:18 | 1:51 pm on 15 July, 2023 | Melanie]\nWow, looks awesome! Did you join in?\n\n[D8:20 | 1:51 pm on 15 July, 2023 | Melanie]\nWow, what an experience! How did it make you feel?\n\n[D10:10 | 8:56 pm on 20 July, 2023 | Melanie]\nSeeing my kids' faces so happy at the beach was the best! We don't go often, usually only once or twice a year. But those times are always special to spend time together and chill.\n\n[D13:7 | 3:31 pm on 23 August, 2023 | Caroline]\nThat's so funny! I used to go horseback riding with my dad when I was a kid, we'd go through the fields, feeling the wind. It was so special. I've always had a love for horses!\n\n[D14:3 | 1:33 pm on 25 August, 2023 | Caroline]\nThanks, Melanie! That plate is awesome! Did you make it?\n\n[D14:22 | 1:33 pm on 25 August, 2023 | Melanie]\nWow, that's gorgeous! Where did you find it?\n\n[D14:28 | 1:33 pm on 25 August, 2023 | Melanie]\nWow, did you make that? It looks so real!\n\n[D15:2 | 3:19 pm on 28 August, 2023 | Melanie]\nHey Caroline! Since we last spoke, I took my kids to a park yesterday. They had fun exploring and playing. It was nice seeing them have a good time outdoors. Time flies, huh? What's new with you?\n\n[D16:19 | 12:09 am on 13 September, 2023 | Caroline]\nPhew! Glad it all worked out and you had a good time at the park!",
+    "retrieved_ids": [
+      "D1:18",
+      "D8:10",
+      "D8:18",
+      "D8:20",
+      "D10:10",
+      "D13:7",
+      "D14:3",
+      "D14:22",
+      "D14:28",
+      "D15:2",
+      "D16:19"
+    ],
+    "memory_tokens": 488,
+    "retrieval_latency_ms": 27.63
+  },
+  {
+    "sample_id": "conv-30",
+    "qa_index": 13,
+    "strategy": "bm25",
+    "context": "[D1:15 | 4:04 pm on 20 January, 2023 | Gina]\nWow! What did you get?\n\n[D1:19 | 4:04 pm on 20 January, 2023 | Gina]\nThanks! We just did a contemporary piece called \"Finding Freedom.\" It was really emotional and powerful.\n\n[D2:1 | 2:32 pm on 29 January, 2023 | Gina]\nHey Jon! Long time no see! Things have been hectic lately. I just launched an ad campaign for my clothing store in hopes of growing the business. Starting my own store and taking risks is both scary and rewarding. I'm excited to see where it takes me!\n\n[D6:6 | 2:35 pm on 16 March, 2023 | Gina]\nYay! My online clothes store is open! I've been dreaming of this for a while now - can't wait to see what happens!\n\n[D6:7 | 2:35 pm on 16 March, 2023 | Jon]\nCongrats! That's awesome! What gave you the idea to start the online store?\n\n[D7:2 | 7:28 pm on 23 March, 2023 | Gina]\nHey Jon, my online clothing store has been a roller coaster but rewarding. Starting a business takes courage - you hang in there too!\n\n[D10:2 | 11:24 am on 25 April, 2023 | Gina]\nHey Jon, congrats on the fair! It's awesome to see your hard work paying off. Keep on pushing, pal, you're headed for greatness. Oh, and BTW, I started my own online clothing store not so long ago - pretty cool, huh?\n\n[D14:2 | 9:38 pm on 16 June, 2023 | Gina]\nWow, Jon! Mentors can really help. I'm working on my online store, growing the customer base. It's tough but I'm determined. How about you? Any new things happening?\n\n[D14:8 | 9:38 pm on 16 June, 2023 | Gina]\nHa, yeah, Jon. I've been one 'cause I lost my job. I opened an online clothing store and it's been great! Being my own boss and doing something I love is awesome.\n\n[D14:9 | 9:38 pm on 16 June, 2023 | Jon]\nWow, Gina! You did great taking that leap. Congrats! Got any advice for someone just starting out?",
+    "retrieved_ids": [
+      "D1:15",
+      "D1:19",
+      "D2:1",
+      "D6:6",
+      "D6:7",
+      "D7:2",
+      "D10:2",
+      "D14:2",
+      "D14:8",
+      "D14:9"
+    ],
+    "memory_tokens": 510,
+    "retrieval_latency_ms": 21.72
+  },
+  {
+    "sample_id": "conv-47",
+    "qa_index": 138,
+    "strategy": "bm25",
+    "context": "[D1:21 | 3:47 pm on 17 March, 2022 | John]\nWow, James! That's amazing. What made you decide to work on it and create your own game?\n\n[D4:9 | 2:13 pm on 4 April, 2022 | John]\nCool! I'm sure his advice will help you develop in the game.\n\n[D6:8 | 9:32 pm on 20 April, 2022 | James]\nThat's so cool you had a similar experience. I bet you felt inspired seeing it in person.\n\n[D8:9 | 2:36 pm on 29 April, 2022 | James]\nWhat challenges have you encountered?\n\n[D11:6 | 5:00 pm on 11 May, 2022 | James]\nWow John, that's awesome! What motivated you to create such an amazing system for them?\n\n[D14:19 | 5:07 pm on 16 June, 2022 | James]\nHe has a blast! Always a joy to see him so happy and carefree in his favorite activity.\n\n[D22:4 | 6:53 pm on 1 September, 2022 | John]\nThis game looks great! What inspired you to create it?\n\n[D22:15 | 6:53 pm on 1 September, 2022 | James]\nI'm proud of them too! Seeing the next generation pick up coding and making their own games is awesome. Can't wait to see what they create!\n\n[D25:11 | 8:56 pm on 20 September, 2022 | John]\nCheers, James! Appreciate your offer to help. I'll definitely let you know when the testing is ready. By the way, here is the book that helped me create the puzzles for this game.\n\n[D27:5 | 2:14 pm on 13 October, 2022 | John]\nSo cool that people are enjoying it! What inspired you to create it?\n\n[D27:6 | 2:14 pm on 13 October, 2022 | James]\nPlaying video games was always great, but creating my own game was really special. Witcher 3 gave me a ton of inspiration, with its amazing world and story. Plus, it pushed me to create something cool.\n\n[D31:4 | 8:57 pm on 7 November, 2022 | John]\nI collaborated with a game developer to create an online board game - it's a fun and unique experience!",
+    "retrieved_ids": [
+      "D1:21",
+      "D4:9",
+      "D6:8",
+      "D8:9",
+      "D11:6",
+      "D14:19",
+      "D22:4",
+      "D22:15",
+      "D25:11",
+      "D27:5",
+      "D27:6",
+      "D31:4"
+    ],
+    "memory_tokens": 509,
+    "retrieval_latency_ms": 39.56
+  }
+]
