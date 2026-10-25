@@ -16,5 +16,6 @@ wheels/
 # Downloaded model weights and local runtime caches
 .cache/
 
-# Local report sources and exports
+# Local report and poster sources and exports
 /report/
+/poster/
