@@ -107,7 +107,9 @@ def main():
             retriever = ConversationRetriever(memories, encoder, count_tokens)
             for q in questions:
                 for strategy in STRATEGIES:
-                    result = retriever.retrieve(q["question"], strategy, budget=args.budget)
+                    result = retriever.retrieve(
+                        q["question"], strategy, budget=args.budget
+                    )
                     records.append(
                         {
                             "sample_id": q["sample_id"],
